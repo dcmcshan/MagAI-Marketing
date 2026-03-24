@@ -12,3 +12,6 @@ __pycache__/
 
 # MyST build output
 _build/
+
+# Playwright review artifacts (regenerate with scripts/review_magai_playwright.py)
+playwright-review/
