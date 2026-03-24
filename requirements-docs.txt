@@ -1,0 +1,2 @@
+# Optional: build / preview MyST site (https://mystmd.org/guide/installing)
+mystmd>=1.0

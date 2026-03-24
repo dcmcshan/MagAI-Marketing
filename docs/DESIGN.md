@@ -167,6 +167,10 @@ In practice, iNQspace provides:
 - **AI-in-the-loop workflows** where appropriate (grounding, evaluation, not prompt tourism)
 - **Versioning / lineage** for iteration and defense
 
+### MyST Markdown (content layer)
+
+Program **content** — syllabi, lectures, public pages, design docs — is authored in **MyST Markdown** (`.md`) so materials can ship as structured documents, cross-linked sites, and exports (HTML/PDF/Word via the [MyST](https://mystmd.org) toolchain). MyST is the authoring format; **iNQspace** is where students execute notebooks, simulations, and lineage-tracked work. The repository root includes `myst.yml` and `index.md` to build a browsable reference site alongside the GitHub-native `README.md`.
+
 ### PTAH
 
 Ontology, rules, scenarios for audiences, messages, channels.

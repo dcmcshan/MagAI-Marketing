@@ -1,0 +1,38 @@
+# MyST Markdown project — https://mystmd.org/guide/configuration
+# Build: myst start  (preview)  |  myst build  (static site)
+version: 1
+project:
+  title: Mag.AI-Marketing
+  description: Castalia Institute — Magister of Artificial Intelligence in Marketing
+  keywords:
+    - marketing
+    - artificial intelligence
+    - Castalia
+    - Magisterium
+  # Authoritative narrative + course materials use MyST Markdown (.md) with optional roles/directives.
+  exclude:
+    - README.md
+    - pages/README.md
+  toc:
+    - file: index.md
+    - title: Public pages
+      children:
+        - file: pages/program-overview.md
+        - file: pages/certificate.md
+        - file: pages/curriculum-at-a-glance.md
+    - title: Program docs
+      children:
+        - file: docs/DESIGN.md
+        - file: docs/CURRICULUM_FULL.md
+        - file: docs/ASSESSMENT.md
+    - title: AIN-M6001 — Personal Attention & Influence Systems
+      children:
+        - file: courses/AIN-M6001/SYLLABUS.md
+        - pattern: courses/AIN-M6001/lectures/*.md
+        - pattern: courses/AIN-M6001/samwise/*.md
+        - pattern: courses/AIN-M6001/notebooks/*.ipynb
+site:
+  template: book-theme
+  actions:
+    - title: MyST Guide
+      url: https://mystmd.org/guide

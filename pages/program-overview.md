@@ -22,6 +22,10 @@
 
 **Mag.AI-M teaches AI through iNQspace** — the Castalia lab environment for notebooks, simulations, integrated tooling, and traceable artifacts. Coursework is not “watch then quiz”; it is build, run, reflect, and defend work that lives in iNQspace so reviewers can inspect mechanics, not just narratives.
 
+## How content is written: MyST
+
+Syllabi, lectures, and program documentation are authored in **MyST Markdown** — portable, structured text that supports rich publishing (web, print, exports) from the same source files. Narrative lives in MyST; runnable work lives in iNQspace.
+
 ---
 
 ## What you build (not what you memorize)

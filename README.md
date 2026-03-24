@@ -29,6 +29,17 @@ Define audience world → Simulate message & channel dynamics → Perturb → Re
 
 **How we teach AI:** Instruction, practice, and assessment run through **iNQspace** — not slide-only delivery. Students work in notebooks, run scenarios, integrate models and tools, and ship traceable artifacts. PTAH-style worlds, SAMWISE reflections, and Faculty challenges all assume work that lives in (and can be reviewed from) that environment.
 
+### Content format: MyST
+
+Narrative and curriculum source files are **MyST Markdown** (`.md`): CommonMark plus optional [MyST](https://mystmd.org/spec) roles and directives (admonitions, figures, cross-references, executable blocks). Jupyter notebooks remain `.ipynb` where computation is primary. This repo includes a root **`myst.yml`** so you can preview or export the book-style site with `myst start` or `myst build` ([MyST CLI](https://mystmd.org/guide/installing)).
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements-docs.txt
+myst start    # preview at http://localhost:3000 (or next free port)
+# myst build  # static site under _build/
+```
+
 ---
 
 ## Program Structure
@@ -53,6 +64,8 @@ Bac.AI → Lic.AI → Mag.AI-M
 
 ```
 MagAI-Marketing/
+├── myst.yml                   # MyST project config (site + table of contents)
+├── index.md                   # MyST landing page (book-theme root)
 ├── docs/
 │   ├── DESIGN.md              # Program design document
 │   ├── CURRICULUM_FULL.md     # All 18 courses detailed
