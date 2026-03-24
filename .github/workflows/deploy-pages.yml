@@ -31,7 +31,7 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r requirements-docs.txt
 
-      # Project pages URL: https://<user>.github.io/<repo>/
+      # Project pages URL: https://<org>.github.io/<repo>/ (e.g. InquiryInstitute)
       - name: Build static HTML
         env:
           BASE_URL: /MagAI-Marketing
