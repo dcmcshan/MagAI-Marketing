@@ -1,9 +1,11 @@
-# MyST Markdown project — https://mystmd.org/guide/configuration
-# Build: myst start  (preview)  |  myst build  (static site)
+# MyST / Jupyter Book — https://mystmd.org/guide/configuration
+# Book site:  myst start  |  myst build  |  jupyter-book build --site
+#   (use `jupyter-book build --site` with no path; do not pass `.` — avoids EISDIR on some versions)
+# Exports:     jupyter-book build --pdf <file.md>  (etc.)
 #
 # SINGLE SOURCE OF TRUTH
 # Everything in project.toc is authoritative. Derive from this tree — do not maintain a parallel copy:
-#   • Static site / exports: myst build → _build/ (HTML; PDF/Word/JATS via myst export as needed)
+#   • Static site / exports: myst build or jupyter-book build --site → _build/
 #   • iNQspace: import or sync course text + notebooks from these paths (execution stays in iNQspace)
 # README.md is excluded here on purpose: GitHub landing stub only; it points to this project.
 version: 1
@@ -18,6 +20,8 @@ project:
   exclude:
     - README.md
     - pages/README.md
+    - slides/README.md
+    - exercises/README.md
   toc:
     - file: index.md
     - title: Public pages
@@ -30,6 +34,12 @@ project:
         - file: docs/DESIGN.md
         - file: docs/CURRICULUM_FULL.md
         - file: docs/ASSESSMENT.md
+    - title: Slides
+      children:
+        - file: slides/ain-m6001_lecture01_intro.md
+    - title: Exercises
+      children:
+        - file: exercises/ain-m6001/warmup.md
     - title: AIN-M6001 — Personal Attention & Influence Systems
       children:
         - file: courses/AIN-M6001/SYLLABUS.md
@@ -39,5 +49,7 @@ project:
 site:
   template: book-theme
   actions:
+    - title: Jupyter Book
+      url: https://jupyterbook.org/stable/
     - title: MyST Guide
       url: https://mystmd.org/guide

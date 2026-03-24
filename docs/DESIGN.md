@@ -176,11 +176,12 @@ Program **content** — syllabi, lectures, public pages, design docs — is auth
 **Content derivation (everything flows from MyST):**
 
 1. **Author** in `.md` / `.ipynb` under paths listed or matched in `myst.yml`.
-2. **Build** with `myst start` / `myst build` — reference HTML; optional **exports** (PDF, Word, JATS) from the same sources.
-3. **Teach** in **iNQspace** by importing or syncing those paths — syllabi and lecture text are not retyped inside the lab; **execution** (notebooks, sims, lineage) lives in iNQspace.
-4. **Do not** maintain a parallel copy of curriculum in wikis, slide decks, or the README — if it is not in the MyST tree, it is not authoritative.
+2. **Build the Jupyter Book** with `myst start` / `myst build` or **`jupyter-book build --site`** (same engine; Jupyter Book is the umbrella CLI for many teams). Optional **exports** (PDF, Word, JATS, slides PDF) via `jupyter-book build --pdf …` etc.
+3. **Structure:** **Book** = full `project.toc` site (read linearly). **Slides** = `slides/*.md` with `+++` frame separators for Beamer-style export. **Exercises** = `{exercise}` / `{solution}` in `exercises/**/*.md` (and optionally mirrored in notebooks with gated syntax).
+4. **Teach** in **iNQspace** by importing or syncing those paths — syllabi and lecture text are not retyped inside the lab; **execution** (notebooks, sims, lineage) lives in iNQspace.
+5. **Do not** maintain a parallel copy of curriculum in wikis, slide decks, or the README — if it is not in the MyST tree, it is not authoritative.
 
-MyST is the authoring and publishing layer; **iNQspace** is the execution layer.
+MyST is the authoring and publishing layer; **Jupyter Book** is the primary build entrypoint for book + slides + exercises; **iNQspace** is the execution layer.
 
 ### PTAH
 

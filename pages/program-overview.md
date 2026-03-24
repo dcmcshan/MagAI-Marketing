@@ -28,6 +28,8 @@ Syllabi, lectures, and program documentation are authored in **MyST Markdown** �
 
 **Derivation:** Public pages, curriculum, and course Markdown are **canonical** in the MyST project (`myst.yml` + sources). Sites, exports, and iNQspace teaching materials **derive** from that tree — they are not edited as separate “versions of truth.”
 
+**Jupyter Book** builds the **book** (site), **slides** under `slides/`, and **exercise** banks under `exercises/` from the same sources (`jupyter-book build --site`).
+
 ---
 
 ## What you build (not what you memorize)

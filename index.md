@@ -13,10 +13,14 @@ description: Castalia Institute — Magister of Artificial Intelligence in Marke
 
 This book is the **single source of truth** for Mag.AI-Marketing narrative and curriculum. Pages listed in `myst.yml` (`project.toc`) are authoritative. **Derived** from them: static site builds, document exports (PDF/Word/JATS), and packaging into **iNQspace** for teaching (students still *execute* notebooks and simulations in iNQspace). The GitHub `README.md` is intentionally outside this build — it only orients clones and tooling.
 
-Author in **MyST Markdown** (`.md`) with optional roles and directives; keep **Jupyter notebooks** as `.ipynb` where computation is primary. Preview with [MyST CLI](https://mystmd.org/guide) (`myst start`).
+Author in **MyST Markdown** (`.md`) with optional roles and directives; keep **Jupyter notebooks** as `.ipynb` where computation is primary.
+
+**Jupyter Book** ([docs](https://jupyterbook.org/stable/)) drives the same project: **book** (site), **slides** (`slides/`, frame separators `+++`), and **exercises** (`{exercise}` / `{solution}` under `exercises/`). Build the site with `myst start`, `myst build`, or `jupyter-book build --site` (from repo root, no path argument).
 
 ## Quick links
 
+- [Slides — AIN-M6001 L1 intro](slides/ain-m6001_lecture01_intro.md)
+- [Exercises — AIN-M6001 warm-up](exercises/ain-m6001/warmup.md)
 - [Program overview](pages/program-overview.md)
 - [Certificate](pages/certificate.md)
 - [Curriculum at a glance](pages/curriculum-at-a-glance.md)

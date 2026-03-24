@@ -12,8 +12,10 @@
 
 | Derived surface | Role |
 | --- | --- |
-| **`myst start` / `myst build`** | Reference HTML site (`_build/`), previews |
-| **Exports** | PDF, Word, JATS, etc., from the same MyST sources ([docs](https://mystmd.org/guide/documents-exports)) |
+| **`myst start` / `myst build`** or **`jupyter-book build --site`** | **Jupyter Book** site (HTML in `_build/`) — same `myst.yml`; use `jupyter-book build --site` with **no trailing path** |
+| **Slides** | MyST Markdown under `slides/` (`+++` frame breaks for Beamer-style export) |
+| **Exercises** | MyST `{exercise}` / `{solution}` under `exercises/` ([syntax](https://mystmd.org/guide/exercises)) |
+| **Exports** | PDF, Word, JATS: `jupyter-book build --pdf <file.md>` etc. ([exports](https://mystmd.org/guide/documents-exports)) |
 | **iNQspace** | Teaching and execution: notebooks, simulations, lineage — **content** is ingested from these MyST-authored paths; labs run there |
 | **This `README.md`** | Orientation and clone/build commands only — **not** a second curriculum. Excluded from the MyST build. |
 
@@ -27,6 +29,7 @@ Edit **`docs/`**, **`pages/`**, **`courses/`**, and **`index.md`**; list or patt
 
 - **iNQspace** — where students run notebooks, simulations, and tracked artifacts.
 - **MyST** — where syllabi, lectures, program docs, and public pages live as structured Markdown.
+- **Jupyter Book** — **book** (site), **slides** (`slides/`), **exercises** (`exercises/`); CLI wraps the same MyST engine as `myst`.
 
 See [`docs/DESIGN.md`](docs/DESIGN.md) for architecture, including **content derivation**.
 
@@ -37,8 +40,10 @@ See [`docs/DESIGN.md`](docs/DESIGN.md) for architecture, including **content der
 ```bash
 python3 -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements-docs.txt
-myst start    # http://localhost:3000 (or next free port)
-# myst build  # static site → _build/
+myst start                    # http://localhost:3000 (or next free port)
+# myst build                  # static site → _build/
+jupyter-book build --site     # same site via Jupyter Book (run from repo root; no `.` at end)
+# jupyter-book build --pdf slides/ain-m6001_lecture01_intro.md   # example PDF export
 ```
 
 ---
@@ -47,12 +52,14 @@ myst start    # http://localhost:3000 (or next free port)
 
 ```
 MagAI-Marketing/
-├── myst.yml              # Project + table of contents — governs what MyST builds
+├── myst.yml              # Project + table of contents — governs Jupyter Book / MyST builds
 ├── index.md              # Book home (MyST)
 ├── docs/                 # DESIGN, CURRICULUM_FULL, ASSESSMENT (MyST)
 ├── pages/                # Public pages (MyST)
+├── slides/               # Instructor decks (MyST; +++ frame breaks)
+├── exercises/            # {exercise} / {solution} banks (MyST)
 ├── courses/              # e.g. AIN-M6001 syllabus, lectures, samwise, notebooks (MyST)
-├── requirements-docs.txt # mystmd
+├── requirements-docs.txt # mystmd + jupyter-book
 └── README.md             # This file — stub only (excluded from MyST)
 ```
 
