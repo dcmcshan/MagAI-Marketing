@@ -30,7 +30,7 @@ Syllabi, lectures, and program documentation are authored in **MyST Markdown** �
 
 **Jupyter Book** builds the **book** (site), **slides** under `slides/`, and **exercise** banks under `exercises/` from the same sources (`jupyter-book build --site`).
 
-**Marketing tools (MCP):** You **leverage** and **build** [Model Context Protocol](https://modelcontextprotocol.io/) integrations so AI workflows connect to real systems — with explicit scopes. Details: [`docs/MCP_MARKETING.md`](../docs/MCP_MARKETING.md).
+**Marketing tools (MCP):** You **leverage** and **build** [Model Context Protocol](https://modelcontextprotocol.io/) integrations so AI workflows connect to real systems — with explicit scopes. The curriculum **requires engagement** with **major platform ecosystems**: **Meta (Facebook/Instagram)**, **Google (Ads, Analytics, Search/YouTube)**, and **Amazon (marketplace + Sponsored Products/Brands)**—as modeled and tool-connected systems, not trivia. Details: [`docs/MCP_MARKETING.md`](../docs/MCP_MARKETING.md), [`docs/CURRICULUM_FULL.md`](../docs/CURRICULUM_FULL.md) (*Major platform ecosystems*).
 
 **AI in the curriculum:** The program embeds a technical **AI literacy spine** (evaluation, RAG/grounding, generative QA, scoped tools)—not only marketing simulations. See [`docs/CURRICULUM_FULL.md`](../docs/CURRICULUM_FULL.md) (*AI literacy spine*).
 

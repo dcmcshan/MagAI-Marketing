@@ -34,7 +34,7 @@ Completing the credential means leaving with a **full toolbox** — inspectable 
 - **MyST** — where syllabi, lectures, program docs, and public pages live as structured Markdown.
 - **Jupyter Book** — **book** (site), **slides** (`slides/`), **exercises** (`exercises/`); CLI wraps the same MyST engine as `myst`.
 - **MCP** — courses integrate **marketing tools** (analytics, CRM, ads, CMS, etc.) via Model Context Protocol: **inspectable** tool contracts, not opaque automation.
-- **Curriculum principles** — [`docs/CURRICULUM_FULL.md`](docs/CURRICULUM_FULL.md): **AI literacy spine** (eval, RAG, generative QA, scoped tools), qualitative grounding, pacing, B2B/B2C and channel modeling notes.
+- **Curriculum principles** — [`docs/CURRICULUM_FULL.md`](docs/CURRICULUM_FULL.md): **AI literacy spine** (eval, RAG, generative QA, scoped tools), **tools-first platform ecosystems** (**Meta**, **Google**, **Amazon**), qualitative grounding, pacing, B2B/B2C and channel modeling notes.
 
 See [`docs/DESIGN.md`](docs/DESIGN.md) and [`docs/MCP_MARKETING.md`](docs/MCP_MARKETING.md) for architecture and tool policy.
 

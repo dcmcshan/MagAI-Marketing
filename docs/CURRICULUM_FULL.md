@@ -8,7 +8,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Delivery:** Students learn and practice AI primarily in **iNQspace** — notebooks, simulations, and artifact lineage — aligned with Castalia’s “build worlds, don’t only discuss them” standard.
 
-**Marketing tools (MCP):** Across terms, students **leverage** and **build** [**Model Context Protocol**](https://modelcontextprotocol.io/) integrations for real marketing data and actions — analytics, CRM, ads, content systems — with explicit scopes and governance. See `docs/MCP_MARKETING.md`.
+**Marketing tools (MCP):** Across terms, students **leverage** and **build** [**Model Context Protocol**](https://modelcontextprotocol.io/) integrations for real marketing data and actions — analytics, CRM, ads, content systems — with explicit scopes and governance. See `docs/MCP_MARKETING.md`. The curriculum **emphasizes tools**: students repeatedly connect **real or synthetic tool surfaces** (APIs, exports, MCP servers) to world models—not slides about tools.
 
 **Legend — AI systems**
 
@@ -17,7 +17,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 | **PTAH** | Ontology, rules, simulation, scenario generation |
 | **SAMWISE** | Reflection, pattern detection, assumption critique, journal |
 | **AI Faculty** | Competing frames, adversarial challenges, alternative narratives |
-| **MCP** | Marketing tools & data: connect AI workflows to external systems; build or extend MCP servers where courses require it |
+| **MCP** | **Primary tool layer:** marketing & ad platforms, analytics, retail — connect AI workflows to external systems; build or extend MCP servers where courses require it |
 
 **Cross-cutting:** Any course artifact that uses **live** marketing data or **actions** (not purely synthetic) should document **MCP** tool surfaces, scopes, and governance per `docs/MCP_MARKETING.md`.
 
@@ -30,7 +30,7 @@ The program is **not** only marketing-as-systems; it explicitly builds **AI comp
 | **Evaluation & safety** | Red-teaming customer-facing flows; hallucination and misuse risk; **human-in-the-loop** gates |
 | **RAG & knowledge** | Grounding brand and policy facts; **measuring** retrieval quality; knowing when *not* to RAG |
 | **Generative workflows** | Prompt and **version** discipline; briefs; **creative QA**; cost/latency vs quality |
-| **Tooling** | MCP-scoped actions; logging; reproducible runs |
+| **Tooling** | MCP-scoped actions; logging; reproducible runs; **named platform stacks** (social, Google, Amazon) in artifacts where channels appear |
 
 These threads run **across** terms and **concentrate** in AIN-M6102 (testing), AIN-M6103 (data + retrieval workflows), AIN-M6204 (automation), AIN-M6205 (alignment).
 
@@ -45,6 +45,18 @@ Eighteen courses assume **flexible pacing** and **faculty-defined milestones**: 
 ### B2B, B2C, and channel families
 
 **Buying context** (e.g. committee vs individual purchase, long-cycle vs impulse) enters models as **explicit constraints** in audience and campaign courses—not a separate “B2B track.” **Channel families** (e.g. search, paid social, lifecycle email, partnerships) are **parameterized modules** inside channel and campaign courses—not vendor certification.
+
+### Major platform ecosystems (tools-first, named)
+
+These are **not** “how to click every admin screen.” They are **named ecosystems** students model, measure, and (where policy allows) **wire via MCP** to notebooks and agents—**auction dynamics, reporting shapes, policy constraints**, and failure modes.
+
+| Ecosystem | What the program covers (examples) |
+| --- | --- |
+| **Social** | **Meta** (Facebook, Instagram): organic reach, paid auctions, creative fatigue, frequency; **LinkedIn** B2B patterns; short-form / discovery patterns (**TikTok**, etc.) as **analogous mechanics** |
+| **Google** | **Search / SEO** as discoverability; **Google Ads** (search, Performance Max, display/YouTube placements); **YouTube** discovery; **Google Analytics (GA4-style)** events, conversions, and data joins |
+| **Amazon** | **Marketplace** organic rank and retail readiness; **Sponsored Products / Sponsored Brands**; retail media and margin constraints; **reviews & retail social proof** as system inputs |
+
+Channel economics (**AIN-M6005**), campaign orchestration (**AIN-M6101**), attribution (**AIN-M6103**), and measurement (**AIN-M6006**) **must** reference at least **two** of the three columns (social, Google, Amazon) in the **required artifact** unless faculty approve a narrower scope in writing.
 
 ### Differentiation from growth-only tracks
 
@@ -116,13 +128,13 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ### AIN-M6005 — Channel & Content Economics
 
-**Description:** Students implement **reach, cost, and conversion** mechanics across channels and content types: **CAC-like dynamics** and **creative throughput** as constraints, not magic ROAS numbers.
+**Description:** Students implement **reach, cost, and conversion** mechanics across channels and content types: **CAC-like dynamics** and **creative throughput** as constraints, not magic ROAS numbers. **Tooling is explicit:** students parameterize **Meta (Facebook/Instagram)**, **Google (Search / Ads / YouTube / GA4-style measurement)**, and **Amazon (marketplace + Sponsored Products/Brands)** as **parallel channel modules**—same ontology, different auction, attribution, and margin rules.
 
-**Key topics:** Channel saturation; creative production as bottleneck; organic vs paid coupling; unit economics of content; **channel families** (e.g. search, paid social, lifecycle email, partner) as modeled modules; ethical tradeoffs (clickbait as system choice).
+**Key topics:** Channel saturation; creative production as bottleneck; organic vs paid coupling; unit economics of content; **social vs search vs retail** economics; **channel families** (search, paid social, lifecycle email, partner, **Amazon retail**) as modeled modules; ethical tradeoffs (clickbait as system choice).
 
-**Required artifact:** **Channel + content economics** simulation with scenario set.
+**Required artifact:** **Channel + content economics** simulation with scenario set that **includes labeled scenarios** for **at least two** of: **social (Meta-class)**, **Google Ads + analytics**, **Amazon marketplace/ads**.
 
-**AI systems used:** PTAH, SAMWISE (metric gaming), AI Faculty (growth vs brand tension).
+**AI systems used:** PTAH, SAMWISE (metric gaming), AI Faculty (growth vs brand tension). **MCP:** ingest **sanitized exports** or **synthetic** platform-shaped data where live APIs are unavailable.
 
 **Prerequisites:** AIN-M6004.
 
@@ -130,9 +142,9 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ### AIN-M6006 — Measurement, Privacy & Compliance
 
-**Description:** Students integrate **measurement, consent, and compliance** as rules in the world: what can be observed, what is inferred, and what is forbidden. GDPR/CCPA-style constraints as **first-class objects**, not footnotes.
+**Description:** Students integrate **measurement, consent, and compliance** as rules in the world: what can be observed, what is inferred, and what is forbidden. GDPR/CCPA-style constraints as **first-class objects**, not footnotes. **Platform policies** (**Meta**, **Google**, **Amazon** ToS, ad policies, data use) enter as **enforceable constraints** on what tools may record or optimize.
 
-**Key topics:** Event models; attribution limits; consent states; platform policy shocks; audit risk; documentation for defensibility.
+**Key topics:** Event models; attribution limits; consent states; platform policy shocks; audit risk; documentation for defensibility; **cross-platform measurement** (e.g. GA4 + ad platforms + **Amazon** reporting) and **identity / consent** limits.
 
 **Required artifact:** **Constrained measurement world** extending prior work with explicit constraint objects and scenario results.
 
@@ -150,11 +162,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ### AIN-M6101 — Campaign Orchestration
 
-**Description:** Students model **multi-touch campaigns** as coordinated dynamics: frequency, sequencing, creative rotation, and budget pacing — **orchestration**, not a single ad set.
+**Description:** Students model **multi-touch campaigns** as coordinated dynamics: frequency, sequencing, creative rotation, and budget pacing — **orchestration**, not a single ad set. **Cross-ecosystem cases are required:** at minimum one scenario spanning **social (e.g. Meta-class)** + **Google (Search/YouTube/PMax-style)** touchpoints, and one scenario that includes **Amazon** (marketplace or sponsored) **or** a faculty-approved **retail media** analog.
 
-**Key topics:** Touchpoint graphs; diminishing returns; holdout logic; coordination failure; scenario libraries.
+**Key topics:** Touchpoint graphs; diminishing returns; holdout logic; coordination failure; scenario libraries; **budget split** across **Meta, Google, Amazon** (or synthetic equivalents) with **different latency and reporting** shapes.
 
-**Required artifact:** **Campaign orchestration simulation** with documented assumptions and failure scenarios.
+**Required artifact:** **Campaign orchestration simulation** with documented assumptions and failure scenarios; **tool map** appendix listing which platform families each touchpoint represents.
 
 **AI systems used:** PTAH, SAMWISE, AI Faculty (integration vs local optimization).
 
@@ -178,11 +190,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ### AIN-M6103 — Data-Driven Marketing & Attribution
 
-**Description:** Students implement **attribution and decision workflows** grounded in data: retrieval + structured decisions, **when data becomes leverage** and when it becomes liability.
+**Description:** Students implement **attribution and decision workflows** grounded in data: retrieval + structured decisions, **when data becomes leverage** and when it becomes liability. **Platform data shapes** are explicit: students work with **Google Ads / GA4-style**, **Meta Ads Manager–class**, and **Amazon Advertising / retail** reporting **limitations** (latency, attribution windows, modeled conversions, retail last-touch bias)—not a single sanitized dashboard.
 
-**Key topics:** Multi-touch attribution limits; incrementality concepts; RAG-style knowledge for playbooks; **evaluation harnesses** for retrieval and LLM outputs (failure taxonomy, not only accuracy vibes); privacy hooks.
+**Key topics:** Multi-touch attribution limits; incrementality concepts; **triangulation** across **Google**, **Meta**, and **Amazon** metrics; RAG-style knowledge for playbooks; **evaluation harnesses** for retrieval and LLM outputs (failure taxonomy, not only accuracy vibes); privacy hooks.
 
-**Required artifact:** **Data-driven world** with decision workflow + evaluation methodology.
+**Required artifact:** **Data-driven world** with decision workflow + evaluation methodology; **must** document **how** at least two ecosystems’ metrics disagree and what you trust under what assumption.
 
 **AI systems used:** PTAH + data integration, SAMWISE, AI Faculty (a.Porter on sustained advantage from data).
 
@@ -206,9 +218,9 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ### AIN-M6105 — Growth Loops & Community
 
-**Description:** Students model **loops** and **community** as reinforced feedback: referrals, UGC, network effects where appropriate — separating **compounding growth** from **burn**.
+**Description:** Students model **loops** and **community** as reinforced feedback: referrals, UGC, network effects where appropriate — separating **compounding growth** from **burn**. **Social surfaces** (organic **Meta**/short-form patterns, **YouTube** subs, **Amazon** reviews/Q&A as retail community) are **first-class** loop carriers where relevant.
 
-**Key topics:** Loop structure; saturation; cohort vs aggregate metrics; community health; ethical boundaries.
+**Key topics:** Loop structure; saturation; cohort vs aggregate metrics; community health; ethical boundaries; **UGC and review dynamics** (social + **Amazon** reputation) as measurable stocks.
 
 **Required artifact:** **Growth loop model** with sensitivity analysis.
 

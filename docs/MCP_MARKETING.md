@@ -12,6 +12,8 @@ The **Model Context Protocol (MCP)** is an open standard for connecting AI assis
 
 We care about MCP because it forces **explicit contracts**: what the model can *do*, with what credentials, and what gets logged — instead of opaque “the AI did something in the browser.”
 
+**Curriculum alignment:** Mag.AI-M **names** major ecosystems students model and may connect: **Meta (Facebook/Instagram)**, **Google (Ads, Analytics/GA4-style, Search/YouTube)**, **Amazon (marketplace + Sponsored Products/Brands + retail media)**—see `CURRICULUM_FULL.md` (*Major platform ecosystems*). MCP servers might wrap **read-only** reporting pulls, creative asset lists, or **synthetic** datasets with the same **schema shape** as production exports.
+
 ---
 
 ## Build vs leverage

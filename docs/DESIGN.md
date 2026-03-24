@@ -183,6 +183,8 @@ In practice, iNQspace provides:
 
 The [**Model Context Protocol (MCP)**](https://modelcontextprotocol.io/) is how courses **connect AI workflows to real marketing systems** — analytics, CRM, ad accounts, content CMS, enrichment APIs — with **explicit tool contracts** instead of ad hoc scraping or mystery plugins. Students **leverage** existing MCP servers (faculty-approved) and **build** or extend servers when a course artifact requires a custom bridge to data or simulators.
 
+The curriculum **emphasizes tools** by naming **major platform ecosystems**—**social (Meta-class)**, **Google (Search/Ads/Analytics/YouTube)**, **Amazon (marketplace + ads)**—as **modeled and measurable** environments, not vendor trivia (see `CURRICULUM_FULL.md`).
+
 MCP is not “extra IT.” It is how **deployment** (Dimension D in assessment) stays **inspectable**: which tools ran, with what scope, and what evidence was produced. Program-wide expectations and guardrails: **`docs/MCP_MARKETING.md`**.
 
 ### MyST Markdown (content layer)
