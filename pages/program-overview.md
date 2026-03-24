@@ -22,13 +22,9 @@
 
 **Mag.AI-M teaches AI through iNQspace** — the Castalia lab environment for notebooks, simulations, integrated tooling, and traceable artifacts. Coursework is not “watch then quiz”; it is build, run, reflect, and defend work that lives in iNQspace so reviewers can inspect mechanics, not just narratives.
 
-## How content is written: MyST
+## How program materials are published
 
-Syllabi, lectures, and program documentation are authored in **MyST Markdown** — portable, structured text that supports rich publishing (web, print, exports) from the same source files. Narrative lives in MyST; runnable work lives in iNQspace.
-
-**Derivation:** Public pages, curriculum, and course Markdown are **canonical** in the MyST project (`myst.yml` + sources). Sites, exports, and iNQspace teaching materials **derive** from that tree — they are not edited as separate “versions of truth.”
-
-**Jupyter Book** builds the **book** (site), **slides** under `slides/`, and **exercise** banks under `exercises/` from the same sources (`jupyter-book build --site`).
+Syllabi, lectures, and program documentation are maintained as **structured source** in this project and published as **web pages** on the Castalia Magisterium site. Narrative and reference live here; runnable work lives in **iNQspace**.
 
 **Marketing tools (MCP):** You **leverage** and **build** [Model Context Protocol](https://modelcontextprotocol.io/) integrations so AI workflows connect to real systems — with explicit scopes. The curriculum **requires engagement** with **major platform ecosystems**: **Meta (Facebook/Instagram)**, **Google (Ads, Analytics, Search/YouTube)**, and **Amazon (marketplace + Sponsored Products/Brands)**—as modeled and tool-connected systems, not trivia. Details: [`docs/MCP_MARKETING.md`](../docs/MCP_MARKETING.md), [`docs/CURRICULUM_FULL.md`](../docs/CURRICULUM_FULL.md) (*Major platform ecosystems*).
 
@@ -54,7 +50,7 @@ Syllabi, lectures, and program documentation are authored in **MyST Markdown** �
 
 ## First course
 
-**AIN-M6001 — Personal Attention & Influence Systems** models *your* attention, credibility, and message–market fit as the substrate for every larger marketing world. It is the recommended entry and the public demo of the method.
+**AINS-M6001 — Personal Attention & Influence Systems** models *your* attention, credibility, and message–market fit as the substrate for every larger marketing world. It is the recommended entry and the public demo of the method. Open the **course book**: [AINS-M6001](../ains-m6001/) (and the full list of course books on [Course sites](../catalog.md)).
 
 ---
 

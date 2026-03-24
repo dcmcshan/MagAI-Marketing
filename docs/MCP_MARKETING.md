@@ -31,7 +31,7 @@ Courses expect **both**: you must *use* tools well before you *ship* tools other
 
 - **Term I (Audience & Message):** Instrument **personal** and **audience** models with live signals where ethical (e.g. your own site analytics, public trend APIs) via MCP; design tool schemas that map to ontology choices.
 - **Term II (Campaign & Growth):** Orchestrate multi-touch workflows; attribute and experiment with **data pulled through MCP**, not screenshots.
-- **Term III (Strategy):** Portfolio and automation courses require **governed** MCP surfaces (audit trails, escalation) aligned with AIN-M6205.
+- **Term III (Strategy):** Portfolio and automation courses require **governed** MCP surfaces (audit trails, escalation) aligned with AINS-M6205.
 
 Specific course artifacts may require an **MCP appendix**: tools used, servers touched, and failure modes.
 

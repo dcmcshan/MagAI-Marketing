@@ -48,11 +48,11 @@ At the end of the credential, the graduate does not leave with a transcript alon
 | **Execution** | Deployed or deployment-ready systems with **measurable** outcomes (iNQspace lineage where applicable) |
 | **Tools** | **MCP**-backed marketing tool integrations built or operated under policy — least privilege, auditable scopes |
 | **Practice** | SAMWISE-style reflection discipline; defense-ready explanation under challenge |
-| **Publication** | Jupyter Book / MyST authoring fluency — book, slides, exercises from the same source tree |
+| **Publication** | Coherent, defense-ready documentation across the program site, slide decks, and exercise banks from one source tree |
 
 **Employer- and peer-legible evidence:** The thesis and portfolio are designed to include at least one **inspectable** outcome an external reviewer can understand—metrics with methodology, repo or demo links as policy allows, and explicit limits—not credential claims alone.
 
-The thesis (AIN-M6206) is the **capstone proof** that the toolbox hangs together: model, evidence, deployment, and ethics in one chain.
+The thesis (AINS-M6206) is the **capstone proof** that the toolbox hangs together: model, evidence, deployment, and ethics in one chain.
 
 ---
 
@@ -66,7 +66,7 @@ The thesis (AIN-M6206) is the **capstone proof** that the toolbox hangs together
 
 ## Thesis requirement (capstone)
 
-**AIN-M6206 — Magisterium Thesis (Marketing)** requires a packaged deliverable:
+**AINS-M6206 — Magisterium Thesis (Marketing)** requires a packaged deliverable:
 
 - Formal world model (explicit assumptions)
 - Simulation evidence

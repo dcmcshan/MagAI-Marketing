@@ -131,12 +131,12 @@ Eighteen courses are **artifact sprints**, not implicitly “semester-long” lo
 
 | Code | Course | Artifact |
 | --- | --- | --- |
-| AIN-M6001 | Personal Attention & Influence Systems | Executable self-influence model |
-| AIN-M6002 | Audience Worlds | Simulated audience population |
-| AIN-M6003 | Positioning & Narrative Systems | Positioning + story simulation |
-| AIN-M6004 | Brand as Dynamic System | Brand state model with feedback |
-| AIN-M6005 | Channel & Content Economics | Channel + content cost / reach model |
-| AIN-M6006 | Measurement, Privacy & Compliance | Constrained measurement world |
+| AINS-M6001 | Personal Attention & Influence Systems | Executable self-influence model |
+| AINS-M6002 | Audience Worlds | Simulated audience population |
+| AINS-M6003 | Positioning & Narrative Systems | Positioning + story simulation |
+| AINS-M6004 | Brand as Dynamic System | Brand state model with feedback |
+| AINS-M6005 | Channel & Content Economics | Channel + content cost / reach model |
+| AINS-M6006 | Measurement, Privacy & Compliance | Constrained measurement world |
 
 ### TERM II — Campaign & Growth Worlds
 
@@ -144,12 +144,12 @@ Eighteen courses are **artifact sprints**, not implicitly “semester-long” lo
 
 | Code | Course | Artifact |
 | --- | --- | --- |
-| AIN-M6101 | Campaign Orchestration | Multi-touch campaign simulation |
-| AIN-M6102 | Creative Testing at Scale | Experiment / lift model |
-| AIN-M6103 | Data-Driven Marketing & Attribution | Attribution + decision workflow |
-| AIN-M6104 | Partnerships & Ecosystem | Partner / affiliate world model |
-| AIN-M6105 | Growth Loops & Community | Loop dynamics simulation |
-| AIN-M6106 | Crisis & Reputation Stress Tests | Adversarial reputation scenarios |
+| AINS-M6101 | Campaign Orchestration | Multi-touch campaign simulation |
+| AINS-M6102 | Creative Testing at Scale | Experiment / lift model |
+| AINS-M6103 | Data-Driven Marketing & Attribution | Attribution + decision workflow |
+| AINS-M6104 | Partnerships & Ecosystem | Partner / affiliate world model |
+| AINS-M6105 | Growth Loops & Community | Loop dynamics simulation |
+| AINS-M6106 | Crisis & Reputation Stress Tests | Adversarial reputation scenarios |
 
 ### TERM III — Strategic Marketing Worlds
 
@@ -157,12 +157,12 @@ Eighteen courses are **artifact sprints**, not implicitly “semester-long” lo
 
 | Code | Course | Artifact |
 | --- | --- | --- |
-| AIN-M6201 | Competitive Narrative Arena | Competing brand / message models |
-| AIN-M6202 | Strategy as Marketing Policy | Policy layer + scenarios |
-| AIN-M6203 | Budget & Portfolio Allocation | Spend simulation across initiatives |
-| AIN-M6204 | Autonomous Marketing Systems | Governed automation subsystem |
-| AIN-M6205 | Ethics, Influence & Control | Governance + harm modeling |
-| AIN-M6206 | Magisterium Thesis | Deployed, validated system |
+| AINS-M6201 | Competitive Narrative Arena | Competing brand / message models |
+| AINS-M6202 | Strategy as Marketing Policy | Policy layer + scenarios |
+| AINS-M6203 | Budget & Portfolio Allocation | Spend simulation across initiatives |
+| AINS-M6204 | Autonomous Marketing Systems | Governed automation subsystem |
+| AINS-M6205 | Ethics, Influence & Control | Governance + harm modeling |
+| AINS-M6206 | Magisterium Thesis | Deployed, validated system |
 
 ---
 
@@ -187,19 +187,19 @@ The curriculum **emphasizes tools** by naming **major platform ecosystems**—**
 
 MCP is not “extra IT.” It is how **deployment** (Dimension D in assessment) stays **inspectable**: which tools ran, with what scope, and what evidence was produced. Program-wide expectations and guardrails: **`docs/MCP_MARKETING.md`**.
 
-### MyST Markdown (content layer)
+### Authoring and the public site (content layer)
 
-Program **content** — syllabi, lectures, public pages, design docs — is authored in **MyST Markdown** (`.md`) so materials can ship as structured documents, cross-linked sites, and exports (HTML/PDF/Word via the [MyST](https://mystmd.org) toolchain). The repository root **`myst.yml`** declares **`project.toc`**: that list is the **canonical boundary** of what the program treats as “the book.” The GitHub **`README.md`** is **outside** the MyST project on purpose: it only points here; it must not duplicate curriculum text.
+Program **content** — syllabi, lectures, public pages, design docs — is authored in structured sources so materials ship as **cross-linked web pages**, printable exports, and teaching packages. The project configuration declares the **canonical table of contents** for what counts as program materials. The repository **README** is developer-only: it must not duplicate curriculum text.
 
-**Content derivation (everything flows from MyST):**
+**Derivation (single source):**
 
-1. **Author** in `.md` / `.ipynb` under paths listed or matched in `myst.yml`.
-2. **Build the Jupyter Book** with `myst start` / `myst build` or **`jupyter-book build --site`** (same engine; Jupyter Book is the umbrella CLI for many teams). Optional **exports** (PDF, Word, JATS, slides PDF) via `jupyter-book build --pdf …` etc.
-3. **Structure:** **Book** = full `project.toc` site (read linearly). **Slides** = `slides/*.md` with `+++` frame separators for Beamer-style export. **Exercises** = `{exercise}` / `{solution}` in `exercises/**/*.md` (and optionally mirrored in notebooks with gated syntax).
+1. **Author** course and program text under the paths declared in the project configuration.
+2. **Build the public site** with the MyST / Jupyter Book CLI (`myst start` / `myst build` / `jupyter-book build --site`). Optional exports (PDF, Word, JATS, slides) via `jupyter-book build --pdf` (etc.) when needed.
+3. **Structure:** the full TOC is the site; **slide** sources live under the slide paths with frame separators; **exercises** use `{exercise}` / `{solution}` blocks (and may mirror in notebooks).
 4. **Teach** in **iNQspace** by importing or syncing those paths — syllabi and lecture text are not retyped inside the lab; **execution** (notebooks, sims, lineage) lives in iNQspace. **MCP** connects labs to marketing tools and data under policy.
-5. **Do not** maintain a parallel copy of curriculum in wikis, slide decks, or the README — if it is not in the MyST tree, it is not authoritative.
+5. **Do not** maintain a parallel copy of curriculum in wikis or ad hoc decks — if it is not in the project tree, it is not authoritative.
 
-MyST is the authoring and publishing layer; **Jupyter Book** is the primary build entrypoint for book + slides + exercises; **iNQspace** is the execution layer.
+**iNQspace** is the execution layer for all runnable work.
 
 ### PTAH
 
@@ -272,7 +272,7 @@ See `ASSESSMENT.md`. Five dimensions: World Construction, Simulation Quality, In
 
 Mag.AI-Marketing is a program for people who want **leverage without fog**: models you can run, defend, and connect to real outcomes.
 
-At completion, the graduate possesses a **full toolbox** — not a checklist of courses, but **reusable artifacts**: simulatable worlds, deployment evidence, **technical AI practice** (eval, grounding, oversight) in real workflows, MCP-governed marketing tool connections, reflection practice, and publishable documentation (MyST / Jupyter Book). The credential attests that those tools exist, run, and can be defended.
+At completion, the graduate possesses a **full toolbox** — not a checklist of courses, but **reusable artifacts**: simulatable worlds, deployment evidence, **technical AI practice** (eval, grounding, oversight) in real workflows, MCP-governed marketing tool connections, reflection practice, and publishable documentation across the program site and artifacts. The credential attests that those tools exist, run, and can be defended.
 
 Graduates are:
 

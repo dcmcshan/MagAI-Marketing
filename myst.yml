@@ -1,14 +1,4 @@
-# MyST / Jupyter Book — https://mystmd.org/guide/configuration
-# Book site:  myst start  |  myst build  |  jupyter-book build --site
-#   (use `jupyter-book build --site` with no path; do not pass `.` — avoids EISDIR on some versions)
-# Exports:     jupyter-book build --pdf <file.md>  (etc.)
-#
-# SINGLE SOURCE OF TRUTH
-# Everything in project.toc is authoritative. Derive from this tree — do not maintain a parallel copy:
-#   • Static site / exports: myst build or jupyter-book build --site → _build/
-#   • Canonical public HTML: magisterium.castalia.institute/magai/marketing/ (BASE_URL=/magai/marketing)
-#   • iNQspace: import or sync course text + notebooks from these paths (execution stays in iNQspace)
-# README.md is excluded here on purpose: GitHub landing stub only; it points to this project.
+# Program hub — public site root (each course is a separate book under courses/<code>/myst.yml)
 version: 1
 project:
   title: Mag.AI-Marketing
@@ -21,11 +11,13 @@ project:
   exclude:
     - README.md
     - pages/README.md
-    - slides/README.md
-    - exercises/README.md
+    - scripts/**
+    - courses/**
+    - slides/**
+    - exercises/**
   toc:
     - file: index.md
-    # Book order: orientation → reference → first course → slides & exercises (supporting)
+    - file: catalog.md
     - title: Orientation
       children:
         - file: pages/program-overview.md
@@ -37,23 +29,11 @@ project:
         - file: docs/CURRICULUM_FULL.md
         - file: docs/MCP_MARKETING.md
         - file: docs/ASSESSMENT.md
-    - title: AIN-M6001 — Personal Attention & Influence Systems
-      children:
-        - file: courses/AIN-M6001/SYLLABUS.md
-        - pattern: courses/AIN-M6001/lectures/*.md
-        - pattern: courses/AIN-M6001/samwise/*.md
-        - pattern: courses/AIN-M6001/notebooks/*.ipynb
-    - title: Slides (instructor)
-      children:
-        - file: slides/ain-m6001_lecture01_intro.md
-    - title: Exercises
-      children:
-        - file: exercises/ain-m6001/warmup.md
-        - file: exercises/ain-m6001/mcp_tool_design.md
 site:
   template: book-theme
+  options:
+    logo_text: Mag.AI-Marketing
+    style: styles/site.css
   actions:
-    - title: Jupyter Book
-      url: https://jupyterbook.org/stable/
-    - title: MyST Guide
-      url: https://mystmd.org/guide
+    - title: Castalia — Magisterium
+      url: https://magisterium.castalia.institute/magai/

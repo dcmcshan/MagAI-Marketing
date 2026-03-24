@@ -10,5 +10,5 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 
-# MyST (mystmd) — https://mystmd.org/guide
+# MyST build output
 _build/

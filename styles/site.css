@@ -1,0 +1,603 @@
+/* Castalia program site — typography, reading rhythm, subtle polish */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&family=JetBrains+Mono:ital,wght@0,400..600;1,400..600&display=swap");
+
+:root {
+  --castalia-font-sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --castalia-font-serif: "Source Serif 4", "Georgia", "Times New Roman", serif;
+  --castalia-font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", monospace;
+  --castalia-text: #1a1a1f;
+  --castalia-text-muted: #4b5563;
+  --castalia-border: #e5e7eb;
+  --castalia-accent: #0f766e;
+  --castalia-accent-hover: #0d9488;
+  --castalia-quote-bg: #f8fafc;
+  /* Magisterium /magai/-aligned hub (index.md) */
+  --magai-navy-950: #0c1222;
+  --magai-navy-800: #1e293b;
+  --magai-gold: #d4a853;
+  --magai-gold-bright: #e8c56b;
+  --magai-gold-muted: rgba(212, 168, 83, 0.88);
+  --magai-stone-100: #f5f5f4;
+  --magai-stone-300: #d6d3d1;
+  --magai-stone-400: #a8a29e;
+  --magai-stone-500: #78716c;
+}
+
+/* Hide theme “Made with MyST” chrome */
+.myst-made-with-myst,
+.myst-primary-sidebar-footer a[href*="mystmd.org/made-with-myst"] {
+  display: none !important;
+}
+
+/* Base: UI chrome (nav, sidebar) + fallbacks */
+html {
+  font-family: var(--castalia-font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prose: serif body for long-form curriculum */
+article,
+article.myst,
+article.content,
+main article,
+[role="main"] article {
+  font-family: var(--castalia-font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  font-optical-sizing: auto;
+  font-feature-settings: "kern" 1, "liga" 1;
+  color: var(--castalia-text);
+  letter-spacing: 0.01em;
+}
+
+article ol,
+article ul {
+  padding-left: 1.35em;
+}
+
+article p,
+article li {
+  max-width: min(68ch, 100%);
+}
+
+article .myst-fm-block-title {
+  font-family: var(--castalia-font-sans);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+article h1,
+article h2,
+article h3,
+article h4 {
+  font-family: var(--castalia-font-sans);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: #111827;
+}
+
+article h1 {
+  font-size: clamp(1.75rem, 1.2rem + 1.5vw, 2.25rem);
+  margin-top: 0;
+}
+
+article h2 {
+  margin-top: 2.25rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--castalia-border);
+}
+
+html.dark article h2 {
+  border-bottom-color: var(--castalia-border);
+}
+
+article h3 {
+  margin-top: 1.75rem;
+}
+
+article a,
+article a.link {
+  color: var(--castalia-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+article a:hover,
+article a.link:hover {
+  color: var(--castalia-accent-hover);
+}
+
+article strong {
+  font-weight: 650;
+  color: #111827;
+}
+
+article blockquote {
+  font-family: var(--castalia-font-sans);
+  font-size: 0.98rem;
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem 0.75rem 1.1rem;
+  border-left: 4px solid var(--castalia-accent);
+  background: var(--castalia-quote-bg);
+  color: var(--castalia-text-muted);
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+article code,
+article td code {
+  font-family: var(--castalia-font-mono);
+  font-size: 0.88em;
+  font-weight: 500;
+  padding: 0.12em 0.35em;
+  border-radius: 0.25rem;
+  background: rgba(15, 118, 110, 0.08);
+  color: #0f766e;
+}
+
+article pre {
+  font-family: var(--castalia-font-mono);
+  font-size: 0.875rem;
+  line-height: 1.55;
+  border-radius: 0.375rem;
+  border: 1px solid var(--castalia-border);
+}
+
+article table {
+  font-family: var(--castalia-font-sans);
+  font-size: 0.95rem;
+  border-collapse: collapse;
+}
+
+article th {
+  font-weight: 650;
+  text-align: left;
+  background: #f9fafb;
+}
+
+article th,
+article td {
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--castalia-border);
+}
+
+article table tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+/* Notes / admonitions: sans for UI contrast with serif body */
+article .admonition,
+article [class*="admonition"],
+article .myst-admonition {
+  font-family: var(--castalia-font-sans);
+  font-size: 0.98rem;
+  border-radius: 0.375rem;
+}
+
+/* Sidebar nav: match sans, readable hierarchy */
+nav a,
+aside a,
+[role="navigation"] a {
+  font-family: var(--castalia-font-sans);
+  letter-spacing: 0.01em;
+}
+
+/* Dark palette — MyST book-theme uses html.dark (toggle), not only prefers-color-scheme */
+html.dark {
+  --castalia-text: #e5e7eb;
+  --castalia-text-muted: #9ca3af;
+  --castalia-border: #3f3f46;
+  --castalia-accent: #2dd4bf;
+  --castalia-accent-hover: #5eead4;
+  --castalia-quote-bg: rgba(45, 212, 191, 0.1);
+}
+
+html.dark article h1,
+html.dark article h2,
+html.dark article h3,
+html.dark article h4,
+html.dark article strong {
+  color: #f9fafb;
+}
+
+html.dark article th {
+  background: #27272a;
+}
+
+html.dark article th,
+html.dark article td {
+  border-color: var(--castalia-border);
+}
+
+html.dark article table tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+html.dark article code,
+html.dark article td code {
+  background: rgba(45, 212, 191, 0.12);
+  color: #5eead4;
+}
+
+html.dark article pre {
+  border-color: var(--castalia-border);
+}
+
+html.dark article blockquote {
+  color: var(--castalia-text-muted);
+}
+
+/* --- Magisterium-aligned program hub (index.md only) — matches /magai/ layout --- */
+
+article .magai-program-landing {
+  margin: -1.25rem -0.5rem 2rem;
+  max-width: none;
+  font-family: var(--castalia-font-sans);
+}
+
+article .magai-program-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+article .magai-program-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 120% 100% at 50% 0%, var(--magai-navy-800) 0%, var(--magai-navy-950) 72%);
+  z-index: 0;
+}
+
+article .magai-program-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+}
+
+article .magai-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--castalia-font-mono);
+  font-size: 0.875rem;
+  color: var(--magai-stone-400);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+
+article .magai-back-link::before {
+  content: "←";
+  opacity: 0.85;
+}
+
+article .magai-back-link:hover {
+  color: var(--magai-gold-muted);
+}
+
+article .magai-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(212, 168, 83, 0.35);
+  background: rgba(212, 168, 83, 0.1);
+  font-family: var(--castalia-font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(212, 168, 83, 0.88);
+  margin-bottom: 1.5rem;
+}
+
+article .magai-hero-title {
+  font-family: var(--castalia-font-serif);
+  font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--magai-stone-100);
+  margin: 0 0 0.5rem;
+  line-height: 1.15;
+}
+
+article .magai-hero-kicker {
+  font-size: 1rem;
+  color: var(--magai-stone-300);
+  margin: 0 0 1.5rem;
+  max-width: 42rem;
+}
+
+article .magai-hero-quote {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid rgba(212, 168, 83, 0.65);
+  border-radius: 0 0.25rem 0.25rem 0;
+  background: rgba(15, 23, 42, 0.45);
+  font-family: var(--castalia-font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--magai-stone-300);
+  max-width: 42rem;
+}
+
+article .magai-hero-quote p {
+  margin: 0;
+  max-width: none;
+}
+
+article .magai-hero-quote strong {
+  color: var(--magai-stone-100);
+}
+
+article .magai-program-main {
+  border-top: 1px solid rgba(51, 65, 85, 0.45);
+  background: var(--magai-navy-950);
+  padding: 2.5rem 1.5rem 3rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+article .magai-program-main h2 {
+  font-family: var(--castalia-font-sans);
+  font-size: 1.25rem;
+  font-weight: 650;
+  color: var(--magai-stone-100);
+  border-bottom-color: rgba(51, 65, 85, 0.6);
+  margin-top: 2rem;
+}
+
+article .magai-program-main h2:first-child {
+  margin-top: 0;
+}
+
+article .magai-program-main h2.magai-section-label {
+  font-family: var(--castalia-font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--magai-stone-500);
+  border-bottom: none;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+article .magai-program-main h2.magai-section-label:first-child {
+  margin-top: 0;
+}
+
+article .magai-program-main p,
+article .magai-program-main li {
+  color: var(--magai-stone-300);
+  max-width: 42rem;
+}
+
+article .magai-program-main strong {
+  color: var(--magai-stone-100);
+}
+
+article .magai-program-main a {
+  color: var(--magai-gold-muted);
+}
+
+article .magai-program-main a:hover {
+  color: var(--magai-gold-bright);
+}
+
+article .magai-program-main hr {
+  border: none;
+  border-top: 1px solid rgba(51, 65, 85, 0.5);
+  margin: 2rem 0;
+}
+
+article .magai-program-main table {
+  font-size: 0.95rem;
+}
+
+article .magai-program-main th {
+  background: rgba(30, 41, 59, 0.85);
+  color: var(--magai-stone-100);
+  border-color: rgba(71, 85, 105, 0.55);
+}
+
+article .magai-program-main td {
+  border-color: rgba(71, 85, 105, 0.45);
+  color: var(--magai-stone-300);
+  background: rgba(17, 24, 39, 0.35);
+}
+
+article .magai-program-main table tr:nth-child(even) td {
+  background: rgba(17, 24, 39, 0.55);
+}
+
+article .magai-program-main td a {
+  color: var(--magai-gold-muted);
+}
+
+article .magai-program-main td code,
+article .magai-program-main p code {
+  background: rgba(212, 168, 83, 0.12);
+  color: var(--magai-gold-bright);
+}
+
+article .magai-prose-lead {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+article ul.magai-link-rows {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  border: 1px solid rgba(71, 85, 105, 0.45);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: rgba(17, 24, 39, 0.35);
+  max-width: none;
+}
+
+article ul.magai-link-rows li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.25rem;
+  border-bottom: 1px solid rgba(71, 85, 105, 0.4);
+  max-width: none;
+}
+
+article ul.magai-link-rows li:last-child {
+  border-bottom: none;
+}
+
+article ul.magai-link-rows li:hover {
+  background: rgba(30, 41, 59, 0.35);
+}
+
+article .magai-link-rows-body {
+  min-width: 0;
+  flex: 1;
+}
+
+article .magai-link-rows-title {
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+  font-size: 1rem;
+  color: var(--magai-stone-100);
+}
+
+article .magai-link-rows-title a {
+  color: var(--magai-stone-100);
+  text-decoration: none;
+}
+
+article .magai-link-rows-title a:hover {
+  color: var(--magai-gold-bright);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+article .magai-link-rows-meta {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--magai-stone-400);
+  line-height: 1.5;
+}
+
+article .magai-link-rows-meta a {
+  color: var(--magai-gold-muted);
+}
+
+article .magai-link-rows-actions {
+  flex-shrink: 0;
+  padding-top: 0.15rem;
+}
+
+article .magai-link-rows-actions a {
+  font-family: var(--castalia-font-mono);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--magai-gold-muted);
+  text-decoration: none;
+}
+
+article .magai-link-rows-actions a:hover {
+  text-decoration: underline;
+}
+
+article ul.magai-link-rows--compact li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+article .magai-related-panel {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(71, 85, 105, 0.4);
+  background: rgba(12, 18, 34, 0.65);
+}
+
+article .magai-related-title {
+  font-family: var(--castalia-font-serif);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--magai-stone-100);
+  margin: 0 0 0.5rem;
+}
+
+article .magai-related-text {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--magai-stone-400);
+  line-height: 1.6;
+  max-width: none;
+}
+
+article .magai-related-text a {
+  color: var(--magai-gold-muted);
+}
+
+article .magai-program-main .admonition,
+article .magai-program-main [class*="admonition"] {
+  border-color: rgba(71, 85, 105, 0.5);
+  background: rgba(17, 24, 39, 0.5);
+  color: var(--magai-stone-300);
+}
+
+article .magai-program-main ul:not(.magai-link-rows) {
+  padding-left: 1.25rem;
+}
+
+article .magai-program-main ul:not(.magai-link-rows) li {
+  margin-bottom: 0.35rem;
+}
+
+article .magai-program-main .margin-target,
+article .magai-program-main [data-node-type="myst:toc"] {
+  border: 1px solid rgba(71, 85, 105, 0.45);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: rgba(17, 24, 39, 0.35);
+}
+
+article .magai-program-main .margin-target a,
+article .magai-program-main [data-node-type="myst:toc"] a {
+  color: var(--magai-gold-muted);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light):not(.dark) {
+    --castalia-text: #e5e7eb;
+    --castalia-text-muted: #9ca3af;
+    --castalia-border: #3f3f46;
+    --castalia-accent: #2dd4bf;
+    --castalia-accent-hover: #5eead4;
+    --castalia-quote-bg: rgba(45, 212, 191, 0.1);
+  }
+
+  html:not(.light):not(.dark) article h1,
+  html:not(.light):not(.dark) article h2,
+  html:not(.light):not(.dark) article h3,
+  html:not(.light):not(.dark) article h4,
+  html:not(.light):not(.dark) article strong {
+    color: #f9fafb;
+  }
+
+  html:not(.light):not(.dark) article th {
+    background: #27272a;
+  }
+
+  html:not(.light):not(.dark) article code,
+  html:not(.light):not(.dark) article td code {
+    background: rgba(45, 212, 191, 0.12);
+    color: #5eead4;
+  }
+}

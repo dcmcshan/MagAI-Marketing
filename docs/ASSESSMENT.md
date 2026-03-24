@@ -132,7 +132,7 @@ Typical competency bar for a course artifact: **mean dimension score ≥ 3.0** w
 
 ### End of Term I — “Audience & Message Worlds” portfolio
 
-- Course artifacts for AIN-M6001–M6006
+- Course artifacts for AINS-M6001–M6006
 - Integrated reflection package (SAMWISE journal excerpts)
 - Reproducibility pack
 - Term synthesis memo: how attention/credibility substrate connects to audience models
@@ -140,15 +140,15 @@ Typical competency bar for a course artifact: **mean dimension score ≥ 3.0** w
 ### End of Term II — “Campaign & Growth Worlds” portfolio
 
 - Campaign, creative testing, attribution artifacts as specified
-- Stress test report (AIN-M6106) on reputation / crisis scenarios
-- Data systems evidence for AIN-M6103 (methodology, not screenshots only)
+- Stress test report (AINS-M6106) on reputation / crisis scenarios
+- Data systems evidence for AINS-M6103 (methodology, not screenshots only)
 - Term synthesis memo: what actually moved decisions vs theater
 
 ### End of Term III — “Strategic Worlds” + thesis
 
 - Arena, policy, budget artifacts
-- Autonomous subsystem (AIN-M6204) and governance (AIN-M6205)
-- **Magisterium Thesis package** (AIN-M6206)
+- Autonomous subsystem (AINS-M6204) and governance (AINS-M6205)
+- **Magisterium Thesis package** (AINS-M6206)
 
 ---
 
@@ -168,7 +168,7 @@ Same structure as Mag.AI-Business: presentation, panel Q&A, artifact deep dive, 
 
 ---
 
-## 6. Magisterium Thesis requirements (AIN-M6206)
+## 6. Magisterium Thesis requirements (AINS-M6206)
 
 The thesis proves: **marketing is a world model with attention, trust, and measurable persuasion** — validated in simulation **and** reality.
 

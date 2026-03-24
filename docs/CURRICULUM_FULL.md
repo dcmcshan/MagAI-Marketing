@@ -32,11 +32,11 @@ The program is **not** only marketing-as-systems; it explicitly builds **AI comp
 | **Generative workflows** | Prompt and **version** discipline; briefs; **creative QA**; cost/latency vs quality |
 | **Tooling** | MCP-scoped actions; logging; reproducible runs; **named platform stacks** (social, Google, Amazon) in artifacts where channels appear |
 
-These threads run **across** terms and **concentrate** in AIN-M6102 (testing), AIN-M6103 (data + retrieval workflows), AIN-M6204 (automation), AIN-M6205 (alignment).
+These threads run **across** terms and **concentrate** in AINS-M6102 (testing), AINS-M6103 (data + retrieval workflows), AINS-M6204 (automation), AINS-M6205 (alignment).
 
 ### Qualitative grounding
 
-Simulations without evidence **lie elegantly**. Students **calibrate** agent and narrative models to **interviews, surveys, or documented synthetic priors** and record **model–reality mismatch** in SAMWISE (especially AIN-M6002–M6003).
+Simulations without evidence **lie elegantly**. Students **calibrate** agent and narrative models to **interviews, surveys, or documented synthetic priors** and record **model–reality mismatch** in SAMWISE (especially AINS-M6002–M6003).
 
 ### Scope and pacing
 
@@ -56,7 +56,7 @@ These are **not** “how to click every admin screen.” They are **named ecosys
 | **Google** | **Search / SEO** as discoverability; **Google Ads** (search, Performance Max, display/YouTube placements); **YouTube** discovery; **Google Analytics (GA4-style)** events, conversions, and data joins |
 | **Amazon** | **Marketplace** organic rank and retail readiness; **Sponsored Products / Sponsored Brands**; retail media and margin constraints; **reviews & retail social proof** as system inputs |
 
-Channel economics (**AIN-M6005**), campaign orchestration (**AIN-M6101**), attribution (**AIN-M6103**), and measurement (**AIN-M6006**) **must** reference at least **two** of the three columns (social, Google, Amazon) in the **required artifact** unless faculty approve a narrower scope in writing.
+Channel economics (**AINS-M6005**), campaign orchestration (**AINS-M6101**), attribution (**AINS-M6103**), and measurement (**AINS-M6006**) **must** reference at least **two** of the three columns (social, Google, Amazon) in the **required artifact** unless faculty approve a narrower scope in writing.
 
 ### Differentiation from growth-only tracks
 
@@ -70,7 +70,7 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ---
 
-### AIN-M6001 — Personal Attention & Influence Systems
+### AINS-M6001 — Personal Attention & Influence Systems
 
 **Description:** Students construct an **executable model of their own attention, credibility, and message–market fit** as interacting stocks and flows. The self is treated as the smallest marketing system: what you attend to, what you signal, and how you allocate creative time — not a productivity blog dressed as strategy.
 
@@ -84,7 +84,7 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ---
 
-### AIN-M6002 — Audience Worlds
+### AINS-M6002 — Audience Worlds
 
 **Description:** Students build **populations of agents** with heterogeneous attention budgets, trust thresholds, channel habits, and decision rules. **Emergence from rules**, not personas on slides: segmentation, sensitivity, and churn-like dynamics must appear from mechanics.
 
@@ -94,11 +94,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE (model vs reality mismatch), AI Faculty (behavioral framing; Porter on value).
 
-**Prerequisites:** AIN-M6001 recommended.
+**Prerequisites:** AINS-M6001 recommended.
 
 ---
 
-### AIN-M6003 — Positioning & Narrative Systems
+### AINS-M6003 — Positioning & Narrative Systems
 
 **Description:** Students model **positioning and story** as mechanisms: what claims do, what categories they invoke, how narratives change perception over time. **Positioning is not a slogan** — it is a set of constraints and feedback loops in an audience world.
 
@@ -108,11 +108,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE (hidden self-deception in story), AI Faculty (narrative + strategy).
 
-**Prerequisites:** AIN-M6002.
+**Prerequisites:** AINS-M6002.
 
 ---
 
-### AIN-M6004 — Brand as Dynamic System
+### AINS-M6004 — Brand as Dynamic System
 
 **Description:** Students model **brand** as state: awareness, association, trust, and elasticity under shocks. Brand is **dynamic** — it drifts with experience, scandal, and creative — not a font choice.
 
@@ -122,11 +122,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE, AI Faculty (a.Porter; reputation risk).
 
-**Prerequisites:** AIN-M6003.
+**Prerequisites:** AINS-M6003.
 
 ---
 
-### AIN-M6005 — Channel & Content Economics
+### AINS-M6005 — Channel & Content Economics
 
 **Description:** Students implement **reach, cost, and conversion** mechanics across channels and content types: **CAC-like dynamics** and **creative throughput** as constraints, not magic ROAS numbers. **Tooling is explicit:** students parameterize **Meta (Facebook/Instagram)**, **Google (Search / Ads / YouTube / GA4-style measurement)**, and **Amazon (marketplace + Sponsored Products/Brands)** as **parallel channel modules**—same ontology, different auction, attribution, and margin rules.
 
@@ -136,11 +136,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE (metric gaming), AI Faculty (growth vs brand tension). **MCP:** ingest **sanitized exports** or **synthetic** platform-shaped data where live APIs are unavailable.
 
-**Prerequisites:** AIN-M6004.
+**Prerequisites:** AINS-M6004.
 
 ---
 
-### AIN-M6006 — Measurement, Privacy & Compliance
+### AINS-M6006 — Measurement, Privacy & Compliance
 
 **Description:** Students integrate **measurement, consent, and compliance** as rules in the world: what can be observed, what is inferred, and what is forbidden. GDPR/CCPA-style constraints as **first-class objects**, not footnotes. **Platform policies** (**Meta**, **Google**, **Amazon** ToS, ad policies, data use) enter as **enforceable constraints** on what tools may record or optimize.
 
@@ -150,7 +150,7 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE (what you ignored because it was inconvenient), AI Faculty (ethics + a.Taleb on fragility of centralized control).
 
-**Prerequisites:** AIN-M6005.
+**Prerequisites:** AINS-M6005.
 
 ---
 
@@ -160,7 +160,7 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ---
 
-### AIN-M6101 — Campaign Orchestration
+### AINS-M6101 — Campaign Orchestration
 
 **Description:** Students model **multi-touch campaigns** as coordinated dynamics: frequency, sequencing, creative rotation, and budget pacing — **orchestration**, not a single ad set. **Cross-ecosystem cases are required:** at minimum one scenario spanning **social (e.g. Meta-class)** + **Google (Search/YouTube/PMax-style)** touchpoints, and one scenario that includes **Amazon** (marketplace or sponsored) **or** a faculty-approved **retail media** analog.
 
@@ -170,11 +170,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE, AI Faculty (integration vs local optimization).
 
-**Prerequisites:** Term I sequence (AIN-M6006 or equivalent).
+**Prerequisites:** Term I sequence (AINS-M6006 or equivalent).
 
 ---
 
-### AIN-M6102 — Creative Testing at Scale
+### AINS-M6102 — Creative Testing at Scale
 
 **Description:** Students build **experiment systems**: lift, variance, sample size, and **when to stop** — treating creative testing as a **statistical world**, not a dashboard.
 
@@ -184,11 +184,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH (simulation), SAMWISE, AI Faculty (behavioral + statistics discipline).
 
-**Prerequisites:** AIN-M6101.
+**Prerequisites:** AINS-M6101.
 
 ---
 
-### AIN-M6103 — Data-Driven Marketing & Attribution
+### AINS-M6103 — Data-Driven Marketing & Attribution
 
 **Description:** Students implement **attribution and decision workflows** grounded in data: retrieval + structured decisions, **when data becomes leverage** and when it becomes liability. **Platform data shapes** are explicit: students work with **Google Ads / GA4-style**, **Meta Ads Manager–class**, and **Amazon Advertising / retail** reporting **limitations** (latency, attribution windows, modeled conversions, retail last-touch bias)—not a single sanitized dashboard.
 
@@ -198,11 +198,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH + data integration, SAMWISE, AI Faculty (a.Porter on sustained advantage from data).
 
-**Prerequisites:** AIN-M6102.
+**Prerequisites:** AINS-M6102.
 
 ---
 
-### AIN-M6104 — Partnerships & Ecosystem
+### AINS-M6104 — Partnerships & Ecosystem
 
 **Description:** Students model **partners, affiliates, and ecosystems** as agents with incentives, leakage, and multi-sided dynamics.
 
@@ -212,11 +212,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE, AI Faculty (power vs trust).
 
-**Prerequisites:** AIN-M6103.
+**Prerequisites:** AINS-M6103.
 
 ---
 
-### AIN-M6105 — Growth Loops & Community
+### AINS-M6105 — Growth Loops & Community
 
 **Description:** Students model **loops** and **community** as reinforced feedback: referrals, UGC, network effects where appropriate — separating **compounding growth** from **burn**. **Social surfaces** (organic **Meta**/short-form patterns, **YouTube** subs, **Amazon** reviews/Q&A as retail community) are **first-class** loop carriers where relevant.
 
@@ -226,11 +226,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE, AI Faculty (demand + competitive response).
 
-**Prerequisites:** AIN-M6104.
+**Prerequisites:** AINS-M6104.
 
 ---
 
-### AIN-M6106 — Crisis & Reputation Stress Tests
+### AINS-M6106 — Crisis & Reputation Stress Tests
 
 **Description:** Students adversarially **break** reputation: negative virality, misinformation, policy shocks, and bad actors. **Fragility analysis** of brand and community.
 
@@ -240,7 +240,7 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE (blind spots), AI Faculty (a.Taleb primary).
 
-**Prerequisites:** AIN-M6105.
+**Prerequisites:** AINS-M6105.
 
 ---
 
@@ -250,7 +250,7 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 ---
 
-### AIN-M6201 — Competitive Narrative Arena
+### AINS-M6201 — Competitive Narrative Arena
 
 **Description:** Students pit **world models** against each other: competing narratives, offers, and budgets. **Strategic interaction** as emergent behavior.
 
@@ -260,11 +260,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH (arena), SAMWISE, AI Faculty (a.Porter primary).
 
-**Prerequisites:** Term II sequence (AIN-M6106 or equivalent).
+**Prerequisites:** Term II sequence (AINS-M6106 or equivalent).
 
 ---
 
-### AIN-M6202 — Strategy as Marketing Policy
+### AINS-M6202 — Strategy as Marketing Policy
 
 **Description:** Students encode strategy as **policy**: rules mapping states to actions under uncertainty (explore/exploit, robustness across scenarios).
 
@@ -274,11 +274,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE, AI Faculty (strategy + uncertainty).
 
-**Prerequisites:** AIN-M6201.
+**Prerequisites:** AINS-M6201.
 
 ---
 
-### AIN-M6203 — Budget & Portfolio Allocation
+### AINS-M6203 — Budget & Portfolio Allocation
 
 **Description:** Students simulate **budget allocation** across initiatives under constraints: liquidity, payback, risk of ruin, opportunity cost.
 
@@ -288,11 +288,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE, AI Faculty (a.Taleb on ruin).
 
-**Prerequisites:** AIN-M6202.
+**Prerequisites:** AINS-M6202.
 
 ---
 
-### AIN-M6204 — Autonomous Marketing Systems
+### AINS-M6204 — Autonomous Marketing Systems
 
 **Description:** Students design **self-running marketing subsystems** with explicit human-in-the-loop boundaries, monitoring, rollback.
 
@@ -302,11 +302,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH orchestration, SAMWISE, AI Faculty (governance).
 
-**Prerequisites:** AIN-M6203.
+**Prerequisites:** AINS-M6203.
 
 ---
 
-### AIN-M6205 — Ethics, Influence & Control
+### AINS-M6205 — Ethics, Influence & Control
 
 **Description:** Students formalize **alignment and governance** for influence systems: stakeholder maps, harms, Goodhart dynamics, **legible** oversight.
 
@@ -316,11 +316,11 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** SAMWISE (ethical probing), PTAH (scenarios), AI Faculty (multi-perspective).
 
-**Prerequisites:** AIN-M6204.
+**Prerequisites:** AINS-M6204.
 
 ---
 
-### AIN-M6206 — Magisterium Thesis (Marketing)
+### AINS-M6206 — Magisterium Thesis (Marketing)
 
 **Description:** Capstone: **real system**, **simulation validation**, **measurable outcomes**, defense-ready documentation.
 
@@ -330,7 +330,7 @@ Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing a
 
 **AI systems used:** PTAH, SAMWISE (full reflection corpus), AI Faculty (panel review).
 
-**Prerequisites:** AIN-M6205 and satisfactory prior artifacts per policy.
+**Prerequisites:** AINS-M6205 and satisfactory prior artifacts per policy.
 
 ---
 
