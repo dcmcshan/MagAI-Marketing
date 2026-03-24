@@ -59,6 +59,8 @@ AI does not replace judgment about ethics, brand, or truthfulness.
 | **SAMWISE** | Reflects, critiques, remembers |
 | **AI Faculty** | Competing frames (positioning, behavior, narrative, risk) |
 
+**Technical AI literacy (explicit):** Parallel to world models, students build competence in **evaluating AI in marketing workflows**: RAG/grounding quality, **prompt and version discipline**, human-in-the-loop review, cost/latency tradeoffs, and **red-teaming** customer-facing flows. This is not a separate “AI minor”; it is **embedded** in campaign, data, automation, and ethics courses (see `CURRICULUM_FULL.md`, *AI literacy spine*).
+
 ### 4. Knowledge as Metabolism
 
 Students continuously:
@@ -110,6 +112,14 @@ Mag.AI-M is equivalent to applied doctorate-level mastery in marketing design.
 
 - 3 Terms (or flexible pacing)
 - Each term increases world complexity (audience → campaign org → competitive strategy)
+
+### Workload and milestones
+
+Eighteen courses are **artifact sprints**, not implicitly “semester-long” loads. Faculty set **minimum viable artifacts** and may **sequence or combine** milestones so students do not carry eighteen simultaneous builds. Over-scoping is treated as a **failure mode** to catch in advising.
+
+### Instructional stack and fallbacks
+
+**Primary stack:** PTAH (worlds), SAMWISE (reflection), iNQspace (execution, lineage), AI Faculty (challenge), MCP (tools). If any component is **unavailable** to a cohort, delivery uses **approved substitutes**: e.g. **Python/notebook** worlds with explicit ontology docs for PTAH-shaped work; **structured reflection templates** for SAMWISE; **generic notebook + Git** lineage for iNQspace; MCP optional on **faculty-hosted or synthetic** endpoints (see `MCP_MARKETING.md`). The **curriculum outcomes** do not depend on a single proprietary binary.
 
 ---
 
@@ -260,7 +270,7 @@ See `ASSESSMENT.md`. Five dimensions: World Construction, Simulation Quality, In
 
 Mag.AI-Marketing is a program for people who want **leverage without fog**: models you can run, defend, and connect to real outcomes.
 
-At completion, the graduate possesses a **full toolbox** — not a checklist of courses, but **reusable artifacts**: simulatable worlds, deployment evidence, MCP-governed marketing tool connections, reflection practice, and publishable documentation (MyST / Jupyter Book). The credential attests that those tools exist, run, and can be defended.
+At completion, the graduate possesses a **full toolbox** — not a checklist of courses, but **reusable artifacts**: simulatable worlds, deployment evidence, **technical AI practice** (eval, grounding, oversight) in real workflows, MCP-governed marketing tool connections, reflection practice, and publishable documentation (MyST / Jupyter Book). The credential attests that those tools exist, run, and can be defended.
 
 Graduates are:
 

@@ -33,6 +33,7 @@ The holder has demonstrated ability to:
 2. **Simulate** scenarios with honest limitations stated.
 3. **Deploy** real systems with **measurable** outcomes and ethical boundaries.
 4. **Iterate** under critique (human faculty + structured reflection).
+5. **Apply technical AI literacy** to marketing workflows: evaluation of AI outputs, grounding/RAG where used, scoped tooling (e.g. MCP), and **documented** human oversight—not unchecked automation.
 
 ---
 
@@ -48,6 +49,8 @@ At the end of the credential, the graduate does not leave with a transcript alon
 | **Tools** | **MCP**-backed marketing tool integrations built or operated under policy — least privilege, auditable scopes |
 | **Practice** | SAMWISE-style reflection discipline; defense-ready explanation under challenge |
 | **Publication** | Jupyter Book / MyST authoring fluency — book, slides, exercises from the same source tree |
+
+**Employer- and peer-legible evidence:** The thesis and portfolio are designed to include at least one **inspectable** outcome an external reviewer can understand—metrics with methodology, repo or demo links as policy allows, and explicit limits—not credential claims alone.
 
 The thesis (AIN-M6206) is the **capstone proof** that the toolbox hangs together: model, evidence, deployment, and ethics in one chain.
 

@@ -26,6 +26,16 @@ Credit accrues through **revision cycles**: models improve under perturbation, r
 
 Self-assessment alone is insufficient. Faculty review, SAMWISE-assisted reflection (with human oversight), and defense-style questioning provide **independent pressure** on claims.
 
+### Calibration (program responsibility)
+
+Artifact grading **scales poorly** without **norming**. The program should:
+
+- Publish **anonymized exemplar artifacts** at defined score bands where possible
+- Run **reviewer calibration** (e.g. shadow scoring on past defenses) before solo reviews
+- Revisit rubrics when **new AI capabilities** (e.g. generative tools) change what “original work” and “deployment evidence” mean
+
+This reduces **inflation** and **inconsistent bars** across the eighteen courses.
+
 ---
 
 ## 2. Five assessment dimensions (1–5 scale)

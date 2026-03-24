@@ -21,6 +21,35 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Cross-cutting:** Any course artifact that uses **live** marketing data or **actions** (not purely synthetic) should document **MCP** tool surfaces, scopes, and governance per `docs/MCP_MARKETING.md`.
 
+### AI literacy spine (technical)
+
+The program is **not** only marketing-as-systems; it explicitly builds **AI competence** for go-to-market work:
+
+| Thread | What students practice |
+| --- | --- |
+| **Evaluation & safety** | Red-teaming customer-facing flows; hallucination and misuse risk; **human-in-the-loop** gates |
+| **RAG & knowledge** | Grounding brand and policy facts; **measuring** retrieval quality; knowing when *not* to RAG |
+| **Generative workflows** | Prompt and **version** discipline; briefs; **creative QA**; cost/latency vs quality |
+| **Tooling** | MCP-scoped actions; logging; reproducible runs |
+
+These threads run **across** terms and **concentrate** in AIN-M6102 (testing), AIN-M6103 (data + retrieval workflows), AIN-M6204 (automation), AIN-M6205 (alignment).
+
+### Qualitative grounding
+
+Simulations without evidence **lie elegantly**. Students **calibrate** agent and narrative models to **interviews, surveys, or documented synthetic priors** and record **model–reality mismatch** in SAMWISE (especially AIN-M6002–M6003).
+
+### Scope and pacing
+
+Eighteen courses assume **flexible pacing** and **faculty-defined milestones**: each course is a **bounded artifact sprint**, not necessarily a full-time semester. Faculty publish **minimum viable artifact** criteria; overload is a **scope bug**, not a virtue.
+
+### B2B, B2C, and channel families
+
+**Buying context** (e.g. committee vs individual purchase, long-cycle vs impulse) enters models as **explicit constraints** in audience and campaign courses—not a separate “B2B track.” **Channel families** (e.g. search, paid social, lifecycle email, partnerships) are **parameterized modules** inside channel and campaign courses—not vendor certification.
+
+### Differentiation from growth-only tracks
+
+Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing as statistics, and ethics of influence**. Growth and attribution appear where they **couple** to story, trust, and **measurement integrity**—not as vanity metrics alone.
+
 ---
 
 ## TERM I — Audience & Message Worlds
@@ -47,7 +76,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Description:** Students build **populations of agents** with heterogeneous attention budgets, trust thresholds, channel habits, and decision rules. **Emergence from rules**, not personas on slides: segmentation, sensitivity, and churn-like dynamics must appear from mechanics.
 
-**Key topics:** Agent design; preference heterogeneity; satisficing vs optimizing; social proof and simple networks; calibration from interviews or documented synthetic priors; validation memo.
+**Key topics:** Agent design; preference heterogeneity; satisficing vs optimizing; social proof and simple networks; **qualitative calibration** (interviews, JTBD-style probes, documented synthetic priors); validation memo; **B2B vs B2C** as constraint families on agents.
 
 **Required artifact:** **Simulated audience population** with runnable scenarios (message, offer, channel change).
 
@@ -89,7 +118,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Description:** Students implement **reach, cost, and conversion** mechanics across channels and content types: **CAC-like dynamics** and **creative throughput** as constraints, not magic ROAS numbers.
 
-**Key topics:** Channel saturation; creative production as bottleneck; organic vs paid coupling; unit economics of content; ethical tradeoffs (clickbait as system choice).
+**Key topics:** Channel saturation; creative production as bottleneck; organic vs paid coupling; unit economics of content; **channel families** (e.g. search, paid social, lifecycle email, partner) as modeled modules; ethical tradeoffs (clickbait as system choice).
 
 **Required artifact:** **Channel + content economics** simulation with scenario set.
 
@@ -137,7 +166,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Description:** Students build **experiment systems**: lift, variance, sample size, and **when to stop** — treating creative testing as a **statistical world**, not a dashboard.
 
-**Key topics:** Hypothesis structure; MDE; peeking and multiple comparisons (conceptual + light implementation); creative variants as factors; ethical A/B boundaries.
+**Key topics:** Hypothesis structure; MDE; peeking and multiple comparisons (conceptual + light implementation); creative variants as factors; **AI-generated or AI-assisted creative** as experimental factors with **disclosure and QA**; ethical A/B boundaries.
 
 **Required artifact:** **Experiment / lift model** with evaluation methodology.
 
@@ -151,7 +180,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Description:** Students implement **attribution and decision workflows** grounded in data: retrieval + structured decisions, **when data becomes leverage** and when it becomes liability.
 
-**Key topics:** Multi-touch attribution limits; incrementality concepts; RAG-style knowledge for playbooks; evaluation; privacy hooks.
+**Key topics:** Multi-touch attribution limits; incrementality concepts; RAG-style knowledge for playbooks; **evaluation harnesses** for retrieval and LLM outputs (failure taxonomy, not only accuracy vibes); privacy hooks.
 
 **Required artifact:** **Data-driven world** with decision workflow + evaluation methodology.
 
@@ -165,7 +194,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Description:** Students model **partners, affiliates, and ecosystems** as agents with incentives, leakage, and multi-sided dynamics.
 
-**Key topics:** Incentive alignment; fraud and gaming; contracts as constraints; ecosystem maps into honest abstractions.
+**Key topics:** Incentive alignment; fraud and gaming; contracts as constraints; ecosystem maps into honest abstractions; **B2B** partner and co-sell patterns vs **consumer** affiliate dynamics where relevant.
 
 **Required artifact:** **Partner / ecosystem simulation** with baseline and stress scenarios.
 
@@ -255,7 +284,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Description:** Students design **self-running marketing subsystems** with explicit human-in-the-loop boundaries, monitoring, rollback.
 
-**Key topics:** Automation limits; monitoring; cost of maintenance; security/abuse basics.
+**Key topics:** Automation limits; monitoring; cost of maintenance; security/abuse basics; **observability** for AI steps (logs, rollback, escalation when model output fails QA).
 
 **Required artifact:** **Autonomous subsystem** deployed with limits and monitoring plan.
 

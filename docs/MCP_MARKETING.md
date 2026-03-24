@@ -44,6 +44,18 @@ Specific course artifacts may require an **MCP appendix**: tools used, servers t
 
 ---
 
+## Access and equity
+
+Not every student has **ad accounts, spend, or employer API access**. Faculty may provide:
+
+- **Shared or faculty-hosted** MCP endpoints with **read-only** or **synthetic** data
+- **Paired projects** where one student supplies account access under policy and another builds analysis only
+- **Fully synthetic** endpoints that still exercise **tool contracts** and logging
+
+Course artifacts must be **achievable** without self-funding ad spend; live spend is **optional** enhancement, not a hidden prerequisite.
+
+---
+
 ## References (external)
 
 - [Model Context Protocol — specification & SDKs](https://modelcontextprotocol.io/)

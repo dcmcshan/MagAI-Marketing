@@ -32,6 +32,8 @@ Syllabi, lectures, and program documentation are authored in **MyST Markdown** �
 
 **Marketing tools (MCP):** You **leverage** and **build** [Model Context Protocol](https://modelcontextprotocol.io/) integrations so AI workflows connect to real systems — with explicit scopes. Details: [`docs/MCP_MARKETING.md`](../docs/MCP_MARKETING.md).
 
+**AI in the curriculum:** The program embeds a technical **AI literacy spine** (evaluation, RAG/grounding, generative QA, scoped tools)—not only marketing simulations. See [`docs/CURRICULUM_FULL.md`](../docs/CURRICULUM_FULL.md) (*AI literacy spine*).
+
 ---
 
 ## What you build (not what you memorize)
