@@ -51,12 +51,12 @@ jupyter-book build --site     # same site via Jupyter Book (run from repo root; 
 # jupyter-book build --pdf slides/ain-m6001_lecture01_intro.md   # example PDF export
 ```
 
-**Canonical public site (Magisterium):** the built book is published by [InquiryInstitute/magisterium](https://github.com/InquiryInstitute/magisterium) CI into **`/magai/marketing/`** on [magisterium.castalia.institute](https://magisterium.castalia.institute/magai/marketing/). See [magisterium/docs/MAG_AI_PROGRAMS.md](https://github.com/InquiryInstitute/magisterium/blob/main/docs/MAG_AI_PROGRAMS.md).
+**Canonical public site (Magisterium):** the built book is published by [InquiryInstitute/magisterium](https://github.com/InquiryInstitute/magisterium) CI into **`/MagAI/marketing/`** on [magisterium.castalia.institute](https://magisterium.castalia.institute/MagAI/marketing/). See [magisterium/docs/MAG_AI_PROGRAMS.md](https://github.com/InquiryInstitute/magisterium/blob/main/docs/MAG_AI_PROGRAMS.md).
 
 **Local static HTML preview** (same `BASE_URL` as production):
 
 ```bash
-BASE_URL=/magai/marketing jupyter-book build --html --ci
+BASE_URL=/MagAI/marketing jupyter-book build --html --ci
 # open _build/html/index.html (or serve the folder)
 ```
 
