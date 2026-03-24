@@ -4,6 +4,8 @@
 
 This document summarizes all **18 courses** across **3 terms**. Each entry states what the student **builds**, **why it matters**, and which **AI systems** support the work.
 
+**Delivery:** Students learn and practice AI primarily in **iNQspace** — notebooks, simulations, and artifact lineage — aligned with Castalia’s “build worlds, don’t only discuss them” standard.
+
 **Legend — AI systems**
 
 | System | Role in courses |

@@ -25,7 +25,9 @@ Define audience world → Simulate message & channel dynamics → Perturb → Re
 | **PTAH** | World builder: ontology, rules, simulation |
 | **SAMWISE** | Reflective AI: tracks learning, critiques assumptions |
 | **AI Faculty** | In voce: competing worldviews (positioning, behavioral economics, narrative, ethics) |
-| **iNQspace** | Execution: notebooks, simulations, AI integration |
+| **iNQspace** | Primary teaching & lab environment: notebooks, simulations, AI-assisted builds, artifact lineage |
+
+**How we teach AI:** Instruction, practice, and assessment run through **iNQspace** — not slide-only delivery. Students work in notebooks, run scenarios, integrate models and tools, and ship traceable artifacts. PTAH-style worlds, SAMWISE reflections, and Faculty challenges all assume work that lives in (and can be reviewed from) that environment.
 
 ---
 

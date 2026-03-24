@@ -158,7 +158,14 @@ Mag.AI-M is equivalent to applied doctorate-level mastery in marketing design.
 
 ### iNQspace
 
-Notebooks, simulations, lineage, artifacts.
+**iNQspace is the primary environment in which we teach AI** for this program: guided labs, course notebooks, simulations, integrations with models and data workflows, and **lineage** so work is inspectable and revisable. Lectures set direction; competence is built by doing — building worlds, running perturbations, and reflecting — inside iNQspace. It is the operational bridge between “understanding AI in marketing” and **demonstrable** skill.
+
+In practice, iNQspace provides:
+
+- **Notebooks and runnable artifacts** (course exercises, thesis components)
+- **Simulation runs** tied to PTAH-style world models
+- **AI-in-the-loop workflows** where appropriate (grounding, evaluation, not prompt tourism)
+- **Versioning / lineage** for iteration and defense
 
 ### PTAH
 

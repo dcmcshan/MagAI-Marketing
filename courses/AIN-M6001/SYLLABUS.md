@@ -37,7 +37,7 @@ By the end of this course, students will be able to:
 | **PTAH** | Build the world: entities, rules, simulations |
 | **SAMWISE** | Reflect after each session |
 | **AI Faculty** | Challenge assumptions: a.Porter (differentiation), a.Taleb (reputation tails) |
-| **iNQspace** | Notebooks, artifacts, lineage |
+| **iNQspace** | **Primary teaching environment:** notebooks, labs, simulations, AI-assisted builds, artifact lineage — where students learn AI by building and running models |
 
 ---
 

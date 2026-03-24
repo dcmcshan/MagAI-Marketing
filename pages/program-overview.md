@@ -18,6 +18,12 @@
 
 ---
 
+## Where you learn: iNQspace
+
+**Mag.AI-M teaches AI through iNQspace** — the Castalia lab environment for notebooks, simulations, integrated tooling, and traceable artifacts. Coursework is not “watch then quiz”; it is build, run, reflect, and defend work that lives in iNQspace so reviewers can inspect mechanics, not just narratives.
+
+---
+
 ## What you build (not what you memorize)
 
 - **Audience models** you can perturb (price, message, channel)
