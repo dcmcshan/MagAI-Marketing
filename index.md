@@ -1,29 +1,82 @@
 ---
 title: Mag.AI-Marketing
-description: Magister of Artificial Intelligence in Marketing — structured AI for marketing as runnable models, real tools, and defended work. Start with orientation, then your first course book.
+description: Graduate-level AI for marketing leaders — measurable campaigns, governed toolchains, and work you can defend to the C-suite and compliance.
 ---
 
 <div class="magai-program-landing">
 
-<section class="magai-program-hero" aria-label="Program introduction">
-<div class="magai-program-hero-inner">
+<div class="magai-program-hero" role="region" aria-label="Program introduction">
+<div class="magai-program-hero-inner magai-hero-split">
+<div class="magai-hero-copy">
 <a href="/magai/" class="magai-back-link">MagAI programs</a>
-<span class="magai-eyebrow">School of AI</span>
-<h1 class="magai-hero-title">Mag.AI-Marketing</h1>
-<p class="magai-hero-kicker">Castalia Institute — Magister of Artificial Intelligence in Marketing</p>
+<span class="magai-eyebrow">Castalia · School of AI</span>
+<h2 class="magai-hero-title">Mag.AI-Marketing</h2>
+<p class="magai-hero-sub">The Magister program for marketers who ship — not slide decks that age in a week.</p>
+<p class="magai-hero-kicker">Turn AI from a buzzword into <strong>governed capability</strong>: simulatable audience and channel dynamics, retrieval-grounded content workflows, and MCP-connected stacks your org can audit.</p>
 <blockquote class="magai-hero-quote">
-<p>AI is already in your stack. The question is whether you can <strong>steer</strong> it—grounded in data, bounded by ethics, and legible under scrutiny.</p>
+<p>Your stakeholders do not want “AI fluency.” They want <strong>forecastable impact</strong>, <strong>clear lineage</strong>, and <strong>defensible decisions</strong> when budgets and reputations are on the line.</p>
 </blockquote>
+<div class="magai-hero-ctas">
+<a href="ains-m6001/" class="magai-btn magai-btn--primary">Start with AINS-M6001 →</a>
+<a href="pages/program-overview.md" class="magai-btn magai-btn--ghost">How the program works</a>
 </div>
-</section>
+</div>
+<div class="magai-hero-visual">
+<figure class="magai-hero-figure">
+<img src="images/hero-analytics.jpg" alt="Hands reviewing marketing analytics dashboards and performance charts on screen." width="1400" height="933" loading="eager" decoding="async" />
+<figcaption class="magai-photo-credit">Stock photo · <a href="https://unsplash.com/photos/Q-t5LNYK1aM?utm_source=magisterium&amp;utm_medium=referral" rel="noopener noreferrer">Unsplash</a> (Austin Distel)</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
-<section class="magai-program-main">
+<div class="magai-program-main">
+
+<div class="magai-stat-strip" role="list">
+<div class="magai-stat" role="listitem"><strong>18</strong><span>courses</span></div>
+<div class="magai-stat" role="listitem"><strong>3</strong><span>terms</span></div>
+<div class="magai-stat" role="listitem"><strong>Artifact</strong><span>graded work</span></div>
+<div class="magai-stat" role="listitem"><strong>MCP</strong><span>scoped integrations</span></div>
+</div>
+
+<p class="magai-prose-highlight">Whether you run demand gen, brand, growth, or marketing ops, you are already judged on <strong>pipeline</strong>, <strong>efficiency</strong>, and <strong>trust</strong>. Mag.AI-M is built for that reality: you learn to <strong>model</strong> markets, <strong>stress-test</strong> campaigns, and <strong>connect</strong> AI workflows to real systems—with ethics and measurement wired in from day one.</p>
+
+---
 
 ## If you’re new here
 
-**Mag.AI-M** is **18 courses** over **three terms**: you move from audience and message worlds to campaigns and growth, then strategy, automation, ethics, and a **capstone**. You move from intuition toward **executable worlds**—simulations you can stress-test, toolchains you can scope, and work you can **defend**. You are not graded on slide fluency—you build **artifacts** (simulations, notebooks, deployments) that faculty can inspect.
+**Mag.AI-M** moves from audience and message worlds through campaigns and growth, then strategy, automation, ethics, and a **capstone thesis**. You graduate with **executable artifacts**—simulations, notebooks, deployments—not multiple-choice “AI awareness.” Readings live in these **course books**; builds and lineage live in **iNQspace** (Castalia’s lab). Faculty, cohort structure, and structured reflection (**SAMWISE** where assigned) mean you are not learning in a vacuum.
 
-**Where work happens:** readings and maps live in these **course books**; hands-on work runs in **iNQspace** (Castalia’s lab—notebooks, simulations, and tracked lineage). You are not expected to figure it out alone—cohort structure, faculty, and reflection prompts (including **SAMWISE** where your course assigns it) are part of the design.
+**Where to click first:** [Program overview](pages/program-overview.md) · [Curriculum at a glance](pages/curriculum-at-a-glance.md) · [First course book — AINS-M6001](ains-m6001/)
+
+---
+
+<h2 class="magai-section-label" id="pillars">What you actually build</h2>
+
+<div class="magai-pillar-grid">
+<div class="magai-pillar-card">
+<img src="images/pillar-measurement.jpg" alt="Laptop showing charts and data visualization for marketing measurement." width="900" height="600" loading="lazy" decoding="async" />
+<div class="magai-pillar-body">
+<h3 class="magai-pillar-title">Prove it in the numbers</h3>
+<p>Calibration, attribution thinking, and privacy-aware measurement—so your AI-assisted plans tie to <strong>evidence</strong> leadership can trust.</p>
+</div>
+</div>
+<div class="magai-pillar-card">
+<img src="images/pillar-collaboration.jpg" alt="Marketing team collaborating around a laptop in a meeting." width="900" height="600" loading="lazy" decoding="async" />
+<div class="magai-pillar-body">
+<h3 class="magai-pillar-title">Ship with your stack</h3>
+<p>Campaign orchestration, creative testing, and growth loops—connected to real platforms where the program requires it, via <strong>explicit MCP scopes</strong>.</p>
+</div>
+</div>
+<div class="magai-pillar-card">
+<img src="images/pillar-strategy.jpg" alt="Professional workspace with strategy planning and creative review." width="900" height="600" loading="lazy" decoding="async" />
+<div class="magai-pillar-body">
+<h3 class="magai-pillar-title">Defend under scrutiny</h3>
+<p>Ethics, narrative competition, and thesis-grade deployment—so your work stands up to <strong>finance</strong>, <strong>legal</strong>, and <strong>the market</strong>.</p>
+</div>
+</div>
+</div>
+<p class="magai-photo-credit magai-photo-credit--block">Stock imagery · <a href="https://unsplash.com?utm_source=magisterium&amp;utm_medium=referral" rel="noopener noreferrer">Unsplash</a></p>
 
 ---
 
@@ -61,11 +114,12 @@ description: Magister of Artificial Intelligence in Marketing — structured AI 
 
 ## Who this is for
 
-- **Marketing and growth** people who want outcomes, not only channel tactics  
-- **Founders and strategists** aligning narrative with numbers  
-- **Builders** who want AI as an **instrument**—auditable, bounded, and improvable  
+- **Marketing & growth leaders** who own pipeline, spend, or narrative—and need AI that **holds up in reviews**  
+- **Brand and product marketing** aligning story with funnel reality and creative testing at scale  
+- **Marketing ops & martech** owners who must **govern** integrations, data, and automation  
+- **Founders and strategists** who pitch investors and customers with **defensible** claims  
 
-This is **not** a light tips course: expect rigor, documentation, and critique. It **is** built so you always know **what to read next** and **where to build**—start below, not by guessing.
+This is **not** a light tips course: expect rigor, documentation, and critique. It **is** built so you always know **what to read next** and **where to build**.
 
 ---
 
@@ -81,19 +135,19 @@ This is **not** a light tips course: expect rigor, documentation, and critique. 
 <li>
 <div class="magai-link-rows-body">
 <p class="magai-link-rows-title"><a href="ains-m6001/">AINS-M6001 — first course book</a></p>
-<p class="magai-link-rows-meta">Read the syllabus, then lectures → notebooks → SAMWISE in the sidebar (slides and exercises for M6001 live in that book).</p>
+<p class="magai-link-rows-meta">Syllabus, lectures, notebooks, and SAMWISE—slides and exercises live in that book.</p>
 </div>
 <div class="magai-link-rows-actions"><a href="ains-m6001/">Open course →</a></div>
 </li>
 <li>
 <div class="magai-link-rows-body">
 <p class="magai-link-rows-title"><a href="docs/ASSESSMENT.md">Assessment</a> · <a href="docs/MCP_MARKETING.md">MCP &amp; marketing tools</a></p>
-<p class="magai-link-rows-meta">When a doc points you to policy or grading, start here.</p>
+<p class="magai-link-rows-meta">Grading, artifacts, and tool policy.</p>
 </div>
 </li>
 <li>
 <div class="magai-link-rows-body">
-<p class="magai-link-rows-title"><a href="catalog.md">Course sites — all 18 books</a></p>
+<p class="magai-link-rows-title"><a href="catalog.md">All 18 course books</a></p>
 <p class="magai-link-rows-meta">Full catalog with links to every module.</p>
 </div>
 <div class="magai-link-rows-actions"><a href="catalog.md">Open catalog →</a></div>
@@ -104,7 +158,7 @@ This is **not** a light tips course: expect rigor, documentation, and critique. 
 
 <h2 class="magai-section-label" id="navigate-hub">Navigate this hub</h2>
 
-<p class="magai-prose-lead">This page is the <strong>program hub</strong> (big-picture story, policies, links). Each course has its <strong>own book</strong> under <code>/ains-m####/</code>. Use the left sidebar or jump below.</p>
+<p class="magai-prose-lead">This page is the <strong>program hub</strong> (story, policies, links). Each course has its <strong>own book</strong> under <code>/ains-m####/</code>. Use the left sidebar or jump below.</p>
 
 <ul class="magai-link-rows magai-link-rows--compact">
 <li>
@@ -145,5 +199,5 @@ This is **not** a light tips course: expect rigor, documentation, and critique. 
 The Castalia Institute Magisterium confers proprietary credentials based on demonstrated work and evaluation. These credentials are not accredited academic degrees and do not confer professional licensure.
 ```
 
-</section>
+</div>
 </div>

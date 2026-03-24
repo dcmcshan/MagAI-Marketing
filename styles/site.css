@@ -259,6 +259,239 @@ article .magai-program-hero-inner {
   padding: 3rem 1.5rem 2rem;
 }
 
+article .magai-program-hero-inner.magai-hero-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 72rem;
+}
+
+@media (min-width: 960px) {
+  article .magai-program-hero-inner.magai-hero-split {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    gap: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+article .magai-hero-copy {
+  min-width: 0;
+}
+
+article .magai-hero-sub,
+article .magai-hero-copy > h2 + p {
+  font-family: var(--castalia-font-serif);
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.35rem);
+  font-weight: 600;
+  font-style: italic;
+  color: rgba(245, 245, 244, 0.92);
+  margin: 0 0 1rem;
+  max-width: 38rem;
+  line-height: 1.45;
+}
+
+article .magai-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-top: 1.5rem;
+}
+
+article .magai-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0.5rem;
+  font-family: var(--castalia-font-mono);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+article .magai-btn--primary {
+  background: linear-gradient(180deg, var(--magai-gold-bright) 0%, var(--magai-gold) 100%);
+  color: var(--magai-navy-950);
+  border: 1px solid rgba(212, 168, 83, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+}
+
+article .magai-btn--primary:hover {
+  filter: brightness(1.06);
+  color: var(--magai-navy-950);
+}
+
+article .magai-btn--ghost {
+  background: rgba(15, 23, 42, 0.45);
+  color: var(--magai-stone-100);
+  border: 1px solid rgba(148, 163, 184, 0.45);
+}
+
+article .magai-btn--ghost:hover {
+  border-color: var(--magai-gold-muted);
+  color: var(--magai-gold-bright);
+}
+
+article .magai-hero-visual {
+  min-width: 0;
+}
+
+article .magai-hero-figure {
+  margin: 0;
+}
+
+article .magai-hero-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.625rem;
+  border: 1px solid rgba(212, 168, 83, 0.28);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+}
+
+article .magai-photo-credit {
+  margin: 0.5rem 0 0;
+  font-family: var(--castalia-font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(148, 163, 184, 0.75);
+}
+
+article .magai-photo-credit a {
+  color: rgba(212, 168, 83, 0.75);
+  text-decoration: none;
+}
+
+article .magai-photo-credit a:hover {
+  color: var(--magai-gold-bright);
+  text-decoration: underline;
+}
+
+article .magai-photo-credit--block {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+article .magai-stat-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 1.75rem;
+  margin: 0 0 2rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(71, 85, 105, 0.45);
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.55) 0%, rgba(17, 24, 39, 0.4) 100%);
+}
+
+article .magai-stat {
+  text-align: center;
+  min-width: 5.5rem;
+}
+
+article .magai-stat strong {
+  display: block;
+  font-family: var(--castalia-font-serif);
+  font-size: clamp(1.5rem, 1.2rem + 1vw, 1.85rem);
+  font-weight: 700;
+  color: var(--magai-gold-bright);
+  line-height: 1.15;
+}
+
+article .magai-stat span {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: var(--castalia-font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--magai-stone-400);
+}
+
+article .magai-prose-highlight {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--magai-stone-200);
+  max-width: 48rem;
+  margin: 0 0 1rem;
+  padding: 0 0 0 1rem;
+  border-left: 3px solid rgba(212, 168, 83, 0.55);
+}
+
+article .magai-pillar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 0 0 0.5rem;
+  max-width: none;
+}
+
+@media (min-width: 720px) {
+  article .magai-pillar-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+
+article .magai-pillar-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid rgba(71, 85, 105, 0.45);
+  background: rgba(17, 24, 39, 0.45);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+article .magai-pillar-card:hover {
+  border-color: rgba(212, 168, 83, 0.35);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+article .magai-pillar-card img {
+  width: 100%;
+  height: 11rem;
+  object-fit: cover;
+  display: block;
+}
+
+article .magai-pillar-body {
+  padding: 1.1rem 1.15rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+article .magai-pillar-title,
+article .magai-pillar-body > h3 {
+  font-family: var(--castalia-font-sans);
+  font-size: 1.05rem;
+  font-weight: 650;
+  color: var(--magai-stone-100);
+  margin: 0 0 0.5rem;
+  line-height: 1.3;
+  border-bottom: none;
+}
+
+article .magai-pillar-body p {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--magai-stone-400);
+  max-width: none;
+}
+
+article .magai-pillar-body p strong {
+  color: var(--magai-stone-200);
+}
+
 article .magai-back-link {
   display: inline-flex;
   align-items: center;
@@ -295,7 +528,8 @@ article .magai-eyebrow {
   margin-bottom: 1.5rem;
 }
 
-article .magai-hero-title {
+article .magai-hero-title,
+article .magai-hero-copy > h2:first-of-type {
   font-family: var(--castalia-font-serif);
   font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem);
   font-weight: 700;
@@ -303,9 +537,16 @@ article .magai-hero-title {
   color: var(--magai-stone-100);
   margin: 0 0 0.5rem;
   line-height: 1.15;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
-article .magai-hero-kicker {
+article .magai-hero-copy > h2:first-of-type {
+  margin-top: 0;
+}
+
+article .magai-hero-kicker,
+article .magai-hero-copy > h2 + p + p {
   font-size: 1rem;
   color: var(--magai-stone-300);
   margin: 0 0 1.5rem;
