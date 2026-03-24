@@ -17,6 +17,7 @@
 | **Exercises** | MyST `{exercise}` / `{solution}` under `exercises/` ([syntax](https://mystmd.org/guide/exercises)) |
 | **Exports** | PDF, Word, JATS: `jupyter-book build --pdf <file.md>` etc. ([exports](https://mystmd.org/guide/documents-exports)) |
 | **iNQspace** | Teaching and execution: notebooks, simulations, lineage — **content** is ingested from these MyST-authored paths; labs run there |
+| **MCP** | **Marketing tools:** students **build** and **leverage** [Model Context Protocol](https://modelcontextprotocol.io/) servers for real data/actions — see [`docs/MCP_MARKETING.md`](docs/MCP_MARKETING.md) |
 | **This `README.md`** | Orientation and clone/build commands only — **not** a second curriculum. Excluded from the MyST build. |
 
 Edit **`docs/`**, **`pages/`**, **`courses/`**, and **`index.md`**; list or pattern them in **`myst.yml`** → **`project.toc`**. Do not fork wording in the README.
@@ -30,8 +31,9 @@ Edit **`docs/`**, **`pages/`**, **`courses/`**, and **`index.md`**; list or patt
 - **iNQspace** — where students run notebooks, simulations, and tracked artifacts.
 - **MyST** — where syllabi, lectures, program docs, and public pages live as structured Markdown.
 - **Jupyter Book** — **book** (site), **slides** (`slides/`), **exercises** (`exercises/`); CLI wraps the same MyST engine as `myst`.
+- **MCP** — courses integrate **marketing tools** (analytics, CRM, ads, CMS, etc.) via Model Context Protocol: **inspectable** tool contracts, not opaque automation.
 
-See [`docs/DESIGN.md`](docs/DESIGN.md) for architecture, including **content derivation**.
+See [`docs/DESIGN.md`](docs/DESIGN.md) and [`docs/MCP_MARKETING.md`](docs/MCP_MARKETING.md) for architecture and tool policy.
 
 ---
 
@@ -54,7 +56,7 @@ jupyter-book build --site     # same site via Jupyter Book (run from repo root; 
 MagAI-Marketing/
 ├── myst.yml              # Project + table of contents — governs Jupyter Book / MyST builds
 ├── index.md              # Book home (MyST)
-├── docs/                 # DESIGN, CURRICULUM_FULL, ASSESSMENT (MyST)
+├── docs/                 # DESIGN, CURRICULUM_FULL, ASSESSMENT, MCP_MARKETING (MyST)
 ├── pages/                # Public pages (MyST)
 ├── slides/               # Instructor decks (MyST; +++ frame breaks)
 ├── exercises/            # {exercise} / {solution} banks (MyST)

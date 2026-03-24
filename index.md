@@ -19,8 +19,10 @@ Author in **MyST Markdown** (`.md`) with optional roles and directives; keep **J
 
 ## Quick links
 
+- [MCP & marketing tools (program policy)](docs/MCP_MARKETING.md)
 - [Slides — AIN-M6001 L1 intro](slides/ain-m6001_lecture01_intro.md)
 - [Exercises — AIN-M6001 warm-up](exercises/ain-m6001/warmup.md)
+- [Exercises — MCP tool design](exercises/ain-m6001/mcp_tool_design.md)
 - [Program overview](pages/program-overview.md)
 - [Certificate](pages/certificate.md)
 - [Curriculum at a glance](pages/curriculum-at-a-glance.md)

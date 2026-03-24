@@ -30,6 +30,8 @@ Syllabi, lectures, and program documentation are authored in **MyST Markdown** â
 
 **Jupyter Book** builds the **book** (site), **slides** under `slides/`, and **exercise** banks under `exercises/` from the same sources (`jupyter-book build --site`).
 
+**Marketing tools (MCP):** You **leverage** and **build** [Model Context Protocol](https://modelcontextprotocol.io/) integrations so AI workflows connect to real systems â€” with explicit scopes. Details: [`docs/MCP_MARKETING.md`](../docs/MCP_MARKETING.md).
+
 ---
 
 ## What you build (not what you memorize)
@@ -38,6 +40,7 @@ Syllabi, lectures, and program documentation are authored in **MyST Markdown** â
 - **Positioning and narrative** encoded as testable structures
 - **Campaign and growth simulations** before you scale spend
 - **Governed automations** with ethical and compliance boundaries
+- **MCP-linked toolchains** for measurement and action (where courses require it)
 
 ---
 

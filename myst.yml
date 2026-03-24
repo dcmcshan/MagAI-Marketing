@@ -34,12 +34,14 @@ project:
         - file: docs/DESIGN.md
         - file: docs/CURRICULUM_FULL.md
         - file: docs/ASSESSMENT.md
+        - file: docs/MCP_MARKETING.md
     - title: Slides
       children:
         - file: slides/ain-m6001_lecture01_intro.md
     - title: Exercises
       children:
         - file: exercises/ain-m6001/warmup.md
+        - file: exercises/ain-m6001/mcp_tool_design.md
     - title: AIN-M6001 — Personal Attention & Influence Systems
       children:
         - file: courses/AIN-M6001/SYLLABUS.md

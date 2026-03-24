@@ -29,6 +29,7 @@ By the end of this course, students will be able to:
 4. Perturb the simulation to test scenarios
 5. Reflect on model quality using SAMWISE
 6. Defend the model against Faculty challenge
+7. Connect the model to **real signals** where appropriate using **MCP**-backed marketing tools (and document scope, limits, and ethics)
 
 ---
 
@@ -39,6 +40,7 @@ By the end of this course, students will be able to:
 | **PTAH** | Build the world: entities, rules, simulations |
 | **SAMWISE** | Reflect after each session |
 | **AI Faculty** | Challenge assumptions: a.Porter (differentiation), a.Taleb (reputation tails) |
+| **MCP** | **Marketing tools:** leverage approved MCP servers to pull metrics, content, or segments into notebooks/agents; optional **build** of a small MCP tool surface for personal or synthetic data (see `docs/MCP_MARKETING.md`) |
 | **iNQspace** | **Primary teaching environment:** notebooks, labs, simulations, AI-assisted builds, artifact lineage — where students learn AI by building and running models |
 
 ---
@@ -183,3 +185,5 @@ AIN-M6001/
     ├── reflection_template.md
     └── prompts.md
 ```
+
+Exercises (relative to repo root): `exercises/ain-m6001/warmup.md`, `exercises/ain-m6001/mcp_tool_design.md`.

@@ -8,6 +8,8 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Delivery:** Students learn and practice AI primarily in **iNQspace** — notebooks, simulations, and artifact lineage — aligned with Castalia’s “build worlds, don’t only discuss them” standard.
 
+**Marketing tools (MCP):** Across terms, students **leverage** and **build** [**Model Context Protocol**](https://modelcontextprotocol.io/) integrations for real marketing data and actions — analytics, CRM, ads, content systems — with explicit scopes and governance. See `docs/MCP_MARKETING.md`.
+
 **Legend — AI systems**
 
 | System | Role in courses |
@@ -15,6 +17,9 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 | **PTAH** | Ontology, rules, simulation, scenario generation |
 | **SAMWISE** | Reflection, pattern detection, assumption critique, journal |
 | **AI Faculty** | Competing frames, adversarial challenges, alternative narratives |
+| **MCP** | Marketing tools & data: connect AI workflows to external systems; build or extend MCP servers where courses require it |
+
+**Cross-cutting:** Any course artifact that uses **live** marketing data or **actions** (not purely synthetic) should document **MCP** tool surfaces, scopes, and governance per `docs/MCP_MARKETING.md`.
 
 ---
 
@@ -32,7 +37,7 @@ This document summarizes all **18 courses** across **3 terms**. Each entry state
 
 **Required artifact:** **Executable self-influence model** with documented assumptions and at least three perturbation scenarios.
 
-**AI systems used:** PTAH (primary), SAMWISE (reflection), AI Faculty (a.Porter on differentiation of self; a.Taleb on reputation tails).
+**AI systems used:** PTAH (primary), SAMWISE (reflection), AI Faculty (a.Porter on differentiation of self; a.Taleb on reputation tails). **MCP:** leverage approved marketing/data tools; optional build path for personal instrumentation (see `docs/MCP_MARKETING.md`).
 
 **Prerequisites:** None.
 

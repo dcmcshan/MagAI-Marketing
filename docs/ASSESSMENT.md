@@ -12,7 +12,7 @@ This document defines how students are evaluated: **dimensions**, **rubrics**, *
 
 ### No exams
 
-Mag.AI-M does not use timed examinations as a primary measure of mastery. Competence is demonstrated through **artifacts** that can be inspected, run, and questioned. Coursework and thesis components are expected to live in **iNQspace** (or equivalent approved lineage) so reviewers can rerun and trace iterations.
+Mag.AI-M does not use timed examinations as a primary measure of mastery. Competence is demonstrated through **artifacts** that can be inspected, run, and questioned. Coursework and thesis components are expected to live in **iNQspace** (or equivalent approved lineage) so reviewers can rerun and trace iterations. Where **MCP** connects to live marketing systems, **Dimension D (Deployment)** expects **documented** tool scope, credentials handling, and what was actually invoked — not undocumented API access.
 
 ### Artifact-based
 

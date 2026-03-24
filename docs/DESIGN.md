@@ -169,6 +169,12 @@ In practice, iNQspace provides:
 - **AI-in-the-loop workflows** where appropriate (grounding, evaluation, not prompt tourism)
 - **Versioning / lineage** for iteration and defense
 
+### MCP (marketing tools)
+
+The [**Model Context Protocol (MCP)**](https://modelcontextprotocol.io/) is how courses **connect AI workflows to real marketing systems** — analytics, CRM, ad accounts, content CMS, enrichment APIs — with **explicit tool contracts** instead of ad hoc scraping or mystery plugins. Students **leverage** existing MCP servers (faculty-approved) and **build** or extend servers when a course artifact requires a custom bridge to data or simulators.
+
+MCP is not “extra IT.” It is how **deployment** (Dimension D in assessment) stays **inspectable**: which tools ran, with what scope, and what evidence was produced. Program-wide expectations and guardrails: **`docs/MCP_MARKETING.md`**.
+
 ### MyST Markdown (content layer)
 
 Program **content** — syllabi, lectures, public pages, design docs — is authored in **MyST Markdown** (`.md`) so materials can ship as structured documents, cross-linked sites, and exports (HTML/PDF/Word via the [MyST](https://mystmd.org) toolchain). The repository root **`myst.yml`** declares **`project.toc`**: that list is the **canonical boundary** of what the program treats as “the book.” The GitHub **`README.md`** is **outside** the MyST project on purpose: it only points here; it must not duplicate curriculum text.
@@ -178,7 +184,7 @@ Program **content** — syllabi, lectures, public pages, design docs — is auth
 1. **Author** in `.md` / `.ipynb` under paths listed or matched in `myst.yml`.
 2. **Build the Jupyter Book** with `myst start` / `myst build` or **`jupyter-book build --site`** (same engine; Jupyter Book is the umbrella CLI for many teams). Optional **exports** (PDF, Word, JATS, slides PDF) via `jupyter-book build --pdf …` etc.
 3. **Structure:** **Book** = full `project.toc` site (read linearly). **Slides** = `slides/*.md` with `+++` frame separators for Beamer-style export. **Exercises** = `{exercise}` / `{solution}` in `exercises/**/*.md` (and optionally mirrored in notebooks with gated syntax).
-4. **Teach** in **iNQspace** by importing or syncing those paths — syllabi and lecture text are not retyped inside the lab; **execution** (notebooks, sims, lineage) lives in iNQspace.
+4. **Teach** in **iNQspace** by importing or syncing those paths — syllabi and lecture text are not retyped inside the lab; **execution** (notebooks, sims, lineage) lives in iNQspace. **MCP** connects labs to marketing tools and data under policy.
 5. **Do not** maintain a parallel copy of curriculum in wikis, slide decks, or the README — if it is not in the MyST tree, it is not authoritative.
 
 MyST is the authoring and publishing layer; **Jupyter Book** is the primary build entrypoint for book + slides + exercises; **iNQspace** is the execution layer.
@@ -235,6 +241,7 @@ See `ASSESSMENT.md`. Five dimensions: World Construction, Simulation Quality, In
 | **Mag.AI-Business** | Shared funnel, customer, and growth mechanics |
 | **Terpedia** | Market + compound narratives |
 | **Atlas / Aegis** | Literacy in systems and measurement |
+| **MCP ecosystem** | Marketing tools (analytics, CRM, ads, CMS) exposed as MCP servers; program policy in `docs/MCP_MARKETING.md` |
 
 ---
 
