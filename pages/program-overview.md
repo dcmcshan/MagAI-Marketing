@@ -46,7 +46,7 @@ Syllabi, lectures, and program documentation are authored in **MyST Markdown** �
 
 ## Credential
 
-**Magister of Artificial Intelligence in Marketing (Mag.AI-M)** — earned through artifacts, defenses, and a final thesis deployment. See [certificate.md](./certificate.md).
+**Magister of Artificial Intelligence in Marketing (Mag.AI-M)** — earned through artifacts, defenses, and a final thesis deployment. Graduates finish with a **full toolbox** of models, deployments, MCP-linked tool practice, and publishable course artifacts — not paper alone. See [certificate.md](./certificate.md).
 
 ---
 

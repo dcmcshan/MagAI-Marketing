@@ -260,6 +260,8 @@ See `ASSESSMENT.md`. Five dimensions: World Construction, Simulation Quality, In
 
 Mag.AI-Marketing is a program for people who want **leverage without fog**: models you can run, defend, and connect to real outcomes.
 
+At completion, the graduate possesses a **full toolbox** — not a checklist of courses, but **reusable artifacts**: simulatable worlds, deployment evidence, MCP-governed marketing tool connections, reflection practice, and publishable documentation (MyST / Jupyter Book). The credential attests that those tools exist, run, and can be defended.
+
 Graduates are:
 
 > **Designers of influence under constraint.**

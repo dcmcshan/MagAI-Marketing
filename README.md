@@ -24,6 +24,8 @@ Edit **`docs/`**, **`pages/`**, **`courses/`**, and **`index.md`**; list or patt
 
 **Entry page for readers:** [`index.md`](index.md) (root of the built book).
 
+Completing the credential means leaving with a **full toolbox** — inspectable world models, deployment evidence, MCP marketing-tool integration practice, and publishable artifacts. See [`pages/certificate.md`](pages/certificate.md#graduate-toolbox).
+
 ---
 
 ## Teach AI (iNQspace) + author content (MyST)
