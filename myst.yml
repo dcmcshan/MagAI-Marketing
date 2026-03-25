@@ -33,7 +33,7 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: Mag.AI-Marketing
+    logo_text: Castalia Institute - Magisterium
     style: styles/site.css
     # Keep the landing page from showing the in-page “Contents” block above the hero; section
     # links stay in the left nav drawer (Open Menu → Table of Contents). Course books omit this.
