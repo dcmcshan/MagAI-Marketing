@@ -346,15 +346,26 @@ article .magai-hero-figure {
   margin: 0;
 }
 
-article .magai-hero-figure img {
+/* MyST emits inline width/height on <img>; those beat normal CSS and distort when the
+   layout scales. Override so images stay proportional inside the column. */
+article .magai-hero-figure picture {
   display: block;
   width: 100%;
-  height: auto;
+}
+
+article .magai-hero-figure img {
+  display: block;
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   border-radius: 0.625rem;
   border: 1px solid rgba(212, 168, 83, 0.28);
   box-shadow:
     0 4px 24px rgba(0, 0, 0, 0.35),
     0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  object-fit: contain;
 }
 
 article .magai-photo-credit {
@@ -458,10 +469,19 @@ article .magai-pillar-card:hover {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 
-article .magai-pillar-card img {
+article .magai-pillar-card picture {
+  display: block;
   width: 100%;
-  height: 11rem;
+}
+
+article .magai-pillar-card img {
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  margin: 0 !important;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
