@@ -283,7 +283,7 @@ article .magai-hero-copy {
 }
 
 article .magai-hero-sub,
-article .magai-hero-copy > h2 + p {
+article .magai-hero-lead {
   font-family: var(--castalia-font-serif);
   font-size: clamp(1.125rem, 1rem + 0.5vw, 1.35rem);
   font-weight: 600;
@@ -292,6 +292,8 @@ article .magai-hero-copy > h2 + p {
   margin: 0 0 1rem;
   max-width: 38rem;
   line-height: 1.45;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 article .magai-hero-ctas {
@@ -568,8 +570,20 @@ article .magai-hero-copy > h2:first-of-type {
   margin-top: 0;
 }
 
+article .magai-hero-copy > h1.magai-hero-lead:first-of-type {
+  margin-top: 0;
+}
+
+/* MyST wraps headings in .heading-text; keep hero lead typography. */
+article .magai-hero-lead .heading-text {
+  font-family: inherit !important;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
 article .magai-hero-kicker,
-article .magai-hero-copy > h2 + p + p {
+article .magai-hero-copy > h1 + p.magai-hero-kicker {
   font-size: 1rem;
   color: var(--magai-stone-300);
   margin: 0 0 1.5rem;
@@ -1335,11 +1349,13 @@ html.light article .magai-program-hero::before {
 }
 
 html.light article .magai-hero-sub,
+html.light article .magai-hero-lead,
 html.light article .magai-hero-copy > h2 + p {
   color: #334155;
 }
 
 html.light article .magai-hero-kicker,
+html.light article .magai-hero-copy > h1 + p.magai-hero-kicker,
 html.light article .magai-hero-copy > h2 + p + p {
   color: #475569;
 }

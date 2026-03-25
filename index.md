@@ -1,6 +1,9 @@
 ---
 title: Mag.AI-Marketing
 description: AI leadership for marketers — judgment, measurement, and governed tools. Built for people who will never be programmers but must lead teams and vendors with credibility.
+site:
+  # Custom hero includes the page title; hide MyST’s duplicate title block (nav still shows the name).
+  hide_title_block: true
 ---
 
 <div class="magai-program-landing">
@@ -10,8 +13,7 @@ description: AI leadership for marketers — judgment, measurement, and governed
 <div class="magai-hero-copy">
 <a href="/magai/" class="magai-back-link">MagAI programs</a>
 <span class="magai-eyebrow">Castalia · School of AI</span>
-<h2 class="magai-hero-title">Mag.AI-Marketing</h2>
-<p class="magai-hero-sub">For marketing leaders who built their careers on judgment, relationships, and results — and need AI to strengthen that craft, not replace it.</p>
+<h1 class="magai-hero-lead">For marketing leaders who built their careers on judgment, relationships, and results — and need AI to strengthen that craft, not replace it.</h1>
 <p class="magai-hero-kicker">You do <strong>not</strong> need to become a software engineer. You <strong>do</strong> need to ask the right questions, spot weak claims, and connect AI work to <strong>outcomes your CFO and your customers can trust</strong>: simulatable audience dynamics, grounded content workflows, and tool connections your org can audit.</p>
 <blockquote class="magai-hero-quote">
 <p>Maybe you earned a business degree at a smaller school, climbed through brand or demand gen, and you’re tired of either <strong>pretending</strong> to understand AI or <strong>deferring</strong> entirely to vendors. Castalia meets you there: <strong>rigor without theater</strong> — so you can protect your team, coach stakeholders, and help others use AI without gambling the brand.</p>
