@@ -39,13 +39,13 @@ description: Graduate-level AI for marketing leaders — measurable campaigns, g
 <div class="magai-stat" role="listitem"><strong>MCP</strong><span>scoped integrations</span></div>
 </div>
 
-<p class="magai-prose-highlight">Whether you run demand gen, brand, growth, or marketing ops, you are already judged on <strong>pipeline</strong>, <strong>efficiency</strong>, and <strong>trust</strong>. Mag.AI-M is built for that reality: you learn to <strong>model</strong> markets, <strong>stress-test</strong> campaigns, and <strong>connect</strong> AI workflows to real systems—with ethics and measurement wired in from day one.</p>
+<p class="magai-prose-highlight">Whether you run demand gen, brand, growth, or marketing ops, you are already judged on <strong>pipeline</strong>, <strong>efficiency</strong>, and <strong>trust</strong>. Mag.AI-Marketing is built for that reality: you learn to <strong>model</strong> markets, <strong>stress-test</strong> campaigns, and <strong>connect</strong> AI workflows to real systems—with ethics and measurement wired in from day one.</p>
 
 ---
 
 ## If you’re new here
 
-**Mag.AI-M** moves from audience and message worlds through campaigns and growth, then strategy, automation, ethics, and a **capstone thesis**. You graduate with **executable artifacts**—simulations, notebooks, deployments—not multiple-choice “AI awareness.” Readings live in these **course books**; builds and lineage live in **iNQspace** (Castalia’s lab). Faculty, cohort structure, and structured reflection (**SAMWISE** where assigned) mean you are not learning in a vacuum.
+**Mag.AI-Marketing** moves from audience and message worlds through campaigns and growth, then strategy, automation, ethics, and a **capstone thesis**. You graduate with **executable artifacts**—simulations, notebooks, deployments—not multiple-choice “AI awareness.” Readings live in these **course books**; builds and lineage live in **iNQspace** (Castalia’s lab). Faculty, cohort structure, and structured reflection (**SAMWISE** where assigned) mean you are not learning in a vacuum.
 
 **Where to click first:** [Program overview](pages/program-overview.md) · [Curriculum at a glance](pages/curriculum-at-a-glance.md) · [First course book — AINS-M6001](ains-m6001/)
 
@@ -94,7 +94,7 @@ description: Graduate-level AI for marketing leaders — measurable campaigns, g
 
 ## What makes this different
 
-| Typical AI training | Mag.AI-M |
+| Typical AI training | Mag.AI-Marketing |
 | --- | --- |
 | Prompt tricks and one-off demos | **Simulatable** audience, message, and channel dynamics |
 | Disconnected from your stack | **MCP**-aware workflows tied to major marketing platforms (where the program requires it) |

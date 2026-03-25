@@ -1,4 +1,4 @@
-# Mag.AI-M — Assessment Framework
+# Mag.AI-Marketing — Assessment Framework
 
 **Castalia Institute — Magister of Artificial Intelligence in Marketing**
 
@@ -12,7 +12,7 @@ This document defines how students are evaluated: **dimensions**, **rubrics**, *
 
 ### No exams
 
-Mag.AI-M does not use timed examinations as a primary measure of mastery. Competence is demonstrated through **artifacts** that can be inspected, run, and questioned. Coursework and thesis components are expected to live in **iNQspace** (or equivalent approved lineage) so reviewers can rerun and trace iterations. Where **MCP** connects to live marketing systems, **Dimension D (Deployment)** expects **documented** tool scope, credentials handling, and what was actually invoked — not undocumented API access.
+Mag.AI-Marketing does not use timed examinations as a primary measure of mastery. Competence is demonstrated through **artifacts** that can be inspected, run, and questioned. Coursework and thesis components are expected to live in **iNQspace** (or equivalent approved lineage) so reviewers can rerun and trace iterations. Where **MCP** connects to live marketing systems, **Dimension D (Deployment)** expects **documented** tool scope, credentials handling, and what was actually invoked — not undocumented API access.
 
 ### Artifact-based
 
@@ -164,7 +164,7 @@ AI-generated journal text must be **disclosed** where required; undisclosed subs
 
 ## 5. Faculty defense protocol
 
-Same structure as Mag.AI-Business: presentation, panel Q&A, artifact deep dive, deliberation, verdict. Panel composition guidance: minimum 3 reviewers; at least one Mag.AI-M reviewer; external recommended for thesis.
+Same structure as Mag.AI-Business: presentation, panel Q&A, artifact deep dive, deliberation, verdict. Panel composition guidance: minimum 3 reviewers; at least one Mag.AI-Marketing reviewer; external recommended for thesis.
 
 ---
 

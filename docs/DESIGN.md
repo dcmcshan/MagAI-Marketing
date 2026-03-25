@@ -1,4 +1,4 @@
-# Magister of Artificial Intelligence in Marketing (Mag.AI-M)
+# Magister of Artificial Intelligence in Marketing (Mag.AI-Marketing)
 
 **Castalia Institute — Magisterium Design Document**
 
@@ -103,10 +103,10 @@ define audience world → simulate → perturb → refine → deploy
 ### Degree Path
 
 ```
-Bac.AI → Lic.AI → Mag.AI-M
+Bac.AI → Lic.AI → Mag.AI-Marketing
 ```
 
-Mag.AI-M is equivalent to applied doctorate-level mastery in marketing design.
+Mag.AI-Marketing is equivalent to applied doctorate-level mastery in marketing design.
 
 ### Duration
 
@@ -237,7 +237,7 @@ See `ASSESSMENT.md`. Five dimensions: World Construction, Simulation Quality, In
 
 ## IX. Differentiation
 
-| Traditional marketing program | Mag.AI-M |
+| Traditional marketing program | Mag.AI-Marketing |
 | --- | --- |
 | Channel recipes | Simulated worlds |
 | Vanity metrics | Mechanism-linked measurement |

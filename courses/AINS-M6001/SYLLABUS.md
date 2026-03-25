@@ -11,7 +11,7 @@
 
 Every marketing system begins with a person allocating **finite attention** and **finite trust** to produce **perceived value** and **action**. Before you model an audience at scale, you model yourself as the smallest complete marketing world.
 
-AINS-M6001 is the first course in the Mag.AI-M program. Students construct an executable model of their own **attention budget, credibility, message–audience fit, content economics, and integrated influence trajectory** — the template for audience worlds, campaigns, and strategy that follow.
+AINS-M6001 is the first course in the Mag.AI-Marketing program. Students construct an executable model of their own **attention budget, credibility, message–audience fit, content economics, and integrated influence trajectory** — the template for audience worlds, campaigns, and strategy that follow.
 
 ### Final Artifact
 

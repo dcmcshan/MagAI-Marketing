@@ -1,4 +1,4 @@
-# Mag.AI-M — Full Curriculum (18 Courses)
+# Mag.AI-Marketing — Full Curriculum (18 Courses)
 
 **Castalia Institute — Magister of Artificial Intelligence in Marketing**
 
@@ -60,7 +60,7 @@ Channel economics (**AINS-M6005**), campaign orchestration (**AINS-M6101**), att
 
 ### Differentiation from growth-only tracks
 
-Mag.AI-M emphasizes **positioning, narrative, brand dynamics, creative testing as statistics, and ethics of influence**. Growth and attribution appear where they **couple** to story, trust, and **measurement integrity**—not as vanity metrics alone.
+Mag.AI-Marketing emphasizes **positioning, narrative, brand dynamics, creative testing as statistics, and ethics of influence**. Growth and attribution appear where they **couple** to story, trust, and **measurement integrity**—not as vanity metrics alone.
 
 ---
 

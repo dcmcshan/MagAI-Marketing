@@ -1,4 +1,4 @@
-# Mag.AI-M — Certificate & Credential
+# Mag.AI-Marketing — Certificate & Credential
 
 **Castalia Institute — Magister of Artificial Intelligence in Marketing**
 
@@ -9,19 +9,19 @@
 ## Credential name
 
 **Magister of Artificial Intelligence in Marketing**  
-Abbreviation: **Mag.AI-M**
+Abbreviation: **Mag.AI-Marketing**
 
 ---
 
 ## Path
 
 ```
-Bac.AI  →  Lic.AI  →  Mag.AI-M
+Bac.AI  →  Lic.AI  →  Mag.AI-Marketing
 ```
 
 - **Bac.AI** establishes baseline literacy (systems, data, ethics).
 - **Lic.AI** establishes applied competence in AI tooling and evaluation.
-- **Mag.AI-M** establishes **mastery**: simulatable marketing worlds, deployments, and a defended thesis.
+- **Mag.AI-Marketing** establishes **mastery**: simulatable marketing worlds, deployments, and a defended thesis.
 
 ---
 

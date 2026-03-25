@@ -1,6 +1,6 @@
 ---
 title: Course sites
-description: Each Mag.AI-M course is its own published book — open your course below.
+description: Each Mag.AI-Marketing course is its own published book — open your course below.
 ---
 
 # Course books

@@ -6,7 +6,7 @@
 
 ## One sentence
 
-**Mag.AI-M** is the marketing track of the Castalia Magisterium: you build *simulatable worlds* of audiences, messages, and channels — then deploy with measurement, not hope.
+**Mag.AI-Marketing** is the marketing track of the Castalia Magisterium: you build *simulatable worlds* of audiences, messages, and channels — then deploy with measurement, not hope.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## Where you learn: iNQspace
 
-**Mag.AI-M teaches AI through iNQspace** — the Castalia lab environment for notebooks, simulations, integrated tooling, and traceable artifacts. Coursework is not “watch then quiz”; it is build, run, reflect, and defend work that lives in iNQspace so reviewers can inspect mechanics, not just narratives.
+**Mag.AI-Marketing teaches AI through iNQspace** — the Castalia lab environment for notebooks, simulations, integrated tooling, and traceable artifacts. Coursework is not “watch then quiz”; it is build, run, reflect, and defend work that lives in iNQspace so reviewers can inspect mechanics, not just narratives.
 
 ## How program materials are published
 
@@ -44,7 +44,7 @@ Syllabi, lectures, and program documentation are maintained as **structured sour
 
 ## Credential
 
-**Magister of Artificial Intelligence in Marketing (Mag.AI-M)** — earned through artifacts, defenses, and a final thesis deployment. Graduates finish with a **full toolbox** of models, deployments, MCP-linked tool practice, and publishable course artifacts — not paper alone. See [certificate.md](./certificate.md).
+**Magister of Artificial Intelligence in Marketing (Mag.AI-Marketing)** — earned through artifacts, defenses, and a final thesis deployment. Graduates finish with a **full toolbox** of models, deployments, MCP-linked tool practice, and publishable course artifacts — not paper alone. See [certificate.md](./certificate.md).
 
 ---
 
