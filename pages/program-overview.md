@@ -2,6 +2,10 @@
 
 **Castalia Institute**
 
+```{note}
+**Browsing without context?** Start on the [program hub](../index.md)—plain-English hook, proof you can read the books first, and links into this overview.
+```
+
 ---
 
 ## One sentence
