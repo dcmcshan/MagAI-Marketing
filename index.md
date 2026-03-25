@@ -111,6 +111,23 @@ site:
 
 ---
 
+<h2 class="magai-section-label" id="compare-programs">Compared to other AI-in-marketing programs</h2>
+
+<p class="magai-prose-lead">The market is full of useful-but-narrow options—vendor badges, workshop sprints, online modules, prompt packs. Here’s how Mag.AI-Marketing differs from <strong>common program shapes</strong> (quality varies inside each category; we’re not comparing any single institution).</p>
+
+| What you often see | Typical focus | Mag.AI-Marketing |
+| --- | --- | --- |
+| **Vendor / platform “AI certificates”** | Feature tours, tool-specific workflows | **Program arc** across audience → campaigns → strategy → ethics + **capstone**; tools are **scoped** (e.g. **MCP**), not the whole point. |
+| **Executive workshops** (1–2 days) | Awareness, slides, a few prompts | **18 courses**, **artifact**-graded work, **SAMWISE** reflection, **reproducible** models—not a one-time event. |
+| **Generic “AI for marketers” courses** | Vocabulary, quizzes, detached from your stack | **Simulatable worlds**, **MCP** where the curriculum requires it, **measurement & compliance** as first-class constraints. |
+| **Prompt libraries & tips content** | Copy-paste tactics | **Evaluation**, **grounding**, **oversight**—why a tactic fails when finance or legal asks hard questions. |
+| **Growth- or attribution-only bootcamps** | Channel tactics, dashboards | **Positioning, narrative, brand dynamics**, ethics, **thesis**—growth couples to story, trust, and integrity. |
+| **“AI strategy” seminars** | High-level frameworks, little inspectable work | **Magisterium**: defenses, lineage, **deployment evidence** someone else can audit. |
+
+<p class="magai-prose-highlight">If you need a <strong>checklist badge</strong> for a résumé line, many paths can work. If you need to <strong>lead</strong> when AI touches data, creative, spend, and reputation—Mag.AI-Marketing is built for <strong>reviewable judgment</strong>, not theater.</p>
+
+---
+
 ## What you’ll leave with
 
 - **Language for mechanics** — attention, trust, positioning, campaigns, and growth as structures you can stress-test, not slogans  
