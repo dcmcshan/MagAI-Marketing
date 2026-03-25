@@ -5,7 +5,7 @@ description: Each Mag.AI-Marketing course is its own published book — open you
 
 # Course books
 
-Each **AINS-M** course has its **own MyST book** (syllabus, lectures, notebooks where applicable). Build locally from `courses/<code>/` or use the links below after deploy (paths are relative to the program site root).
+Each **AINS-M** course has its **own MyST book** (syllabus, lectures, notebooks where applicable). Use the links below to open each course; paths are relative to the program site root.
 
 | Term | Course | Open the book |
 | --- | --- | --- |
@@ -29,9 +29,3 @@ Each **AINS-M** course has its **own MyST book** (syllabus, lectures, notebooks 
 | III | [AINS-M6206 — Magisterium Thesis (Marketing)](ains-m6206/) | Capstone |
 
 **Program hub** (this site’s home): [Mag.AI-Marketing](index.md) · [Curriculum overview](pages/curriculum-at-a-glance.md) · [Full curriculum](docs/CURRICULUM_FULL.md)
-
----
-
-## Build note
-
-The **program** book is built from the repo root; each **course** book is built from `courses/<code>/` (see `scripts/build_all_books.sh`). Deploy all outputs under one static root so `ains-m6001/` … `ains-m6206/` sit beside the hub `index.html`.
